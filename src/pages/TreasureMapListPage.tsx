@@ -167,14 +167,12 @@ export default function TreasureMapListPage({ onNavigate }: Props) {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <div className="modal-header">
               <div className="modal-title">
-                {showChapterModal.treasureMap.type === 'geographic' ? '选择城市' : '选择章节'}
+                选择篇章
               </div>
               <button className="modal-close" onClick={() => setShowChapterModal(null)}>✕</button>
             </div>
             <div className="modal-subtitle">
-              {showChapterModal.treasureMap.type === 'geographic'
-                ? '选择你想探索的城市'
-                : '选择你想探索的章节'}
+              选择你想探索的篇章
             </div>
             <div className="chapter-list">
               {showChapterModal.chapters.map((ch) => {

@@ -127,7 +127,7 @@ export default function TreasureMapDetailPage({ mapId, chapterId, onNavigate }: 
           style={{ left: 'auto', right: 0 }}
           onClick={() => onNavigate({ page: 'treasure-map-list' })}
         >
-          {map.treasureMap.type === 'geographic' ? '← 选择城市' : '← 选择章节'}
+          ← 选择篇章
         </button>
         <span className="nav-title">{chapter.name}</span>
       </div>
