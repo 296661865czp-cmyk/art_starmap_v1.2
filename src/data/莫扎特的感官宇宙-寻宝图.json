@@ -1,0 +1,599 @@
+{
+  "treasureMap": {
+    "id": "mozart-odyssey",
+    "name": "莫扎特的感官宇宙",
+    "description": "追随莫扎特的音符轨迹，从萨尔茨堡的摇篮到维也纳的巅峰，穿越歌剧、交响曲与室内乐的星辰大海。沿途邂逅与莫扎特灵魂共振的绘画、建筑与美食，发现古典音乐之神如何照亮一切感官。",
+    "creator": "ArtStarMap",
+    "version": "1.0.0",
+    "type": "thematic"
+  },
+  "chapters": [
+    {
+      "id": "mozart-opera",
+      "name": "歌剧的黄金剧场",
+      "description": "莫扎特一生写了22部歌剧，每一部都是人性的显微镜。从喜剧到悲剧，从宫廷到民间，这里是他最辉煌的舞台。",
+      "items": [
+        {
+          "id": "mozart-opera-001",
+          "title": "《费加罗的婚礼》",
+          "domain": "music",
+          "description": "K.492，四幕喜歌剧，博马舍原作改编。序曲的急速弦乐如同一场精密的钟表运动，咏叹调「Voi che sapete」是少年情愫最完美的声音肖像。",
+          "hints": "试着不看字幕，单凭旋律感受每个角色的情绪转换——莫扎特的音乐本身就是最好的翻译。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-opera-001-1",
+              "title": "序曲：急板中的喜剧精神",
+              "description": "不到五分钟的序曲浓缩了整部歌剧的气质，弦乐的急速运转如同费加罗的机智头脑",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-opera-001-2",
+              "title": "「Voi che sapete」：凯鲁比诺的少年心事",
+              "description": "伯爵夫人侍童的咏叹调，用最简单的旋律线勾勒出青春期情感的迷茫与甜蜜",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-opera-001-3",
+              "title": "第三幕六重唱：莫扎特式的混乱与秩序",
+              "description": "六个角色同时歌唱不同的情感，却在和声中达成奇迹般的平衡",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-opera-002",
+          "title": "《唐·乔万尼》",
+          "domain": "music",
+          "description": "K.527，两幕正歌剧。莫扎特笔下最复杂的角色，在放荡与魅力之间游走，石像复仇的终场是歌剧史上最令人战栗的时刻。",
+          "hints": "关注唐·乔万尼与每个女性角色的二重唱——莫扎特为每段关系写了完全不同的音乐语言。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-opera-002-1",
+              "title": "序曲：d小调的阴影预言",
+              "description": "开头的和弦直接引用终场石像登场的音乐，莫扎特在第一秒就告诉你结局",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-opera-002-2",
+              "title": "「Là ci darem la mano」：诱惑的二重唱",
+              "description": "唐·乔万尼引诱采琳娜的经典段落，两个声部从对抗到融合的过程如丝绸般顺滑",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-opera-002-3",
+              "title": "石像晚餐：地狱之门打开的那一刻",
+              "description": "长号奏出石像的声音，d小调的阴冷笼罩全场，歌剧史上最惊悚的终场之一",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-opera-003",
+          "title": "《魔笛》",
+          "domain": "music",
+          "description": "K.620，两幕歌唱剧，莫扎特生命最后一年的作品。共济会的寓言外衣下，藏着他对光明、智慧与爱的终极信仰。",
+          "hints": "夜后的花腔高音是技术奇观，但真正的灵魂在帕帕基诺的民谣里——那是莫扎特最接近普通人的瞬间。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-opera-003-1",
+              "title": "夜后咏叹调「Der Hölle Rache」",
+              "description": "高音F6的极限挑战，愤怒与疯狂的花腔段落，歌剧史上最著名的女高音试金石",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-opera-003-2",
+              "title": "帕帕基诺与帕帕基娜的二重唱",
+              "description": "「Pa-pa-pa」的欢快对唱，莫扎特用最质朴的方式歌颂平凡人的爱情与幸福",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-opera-003-3",
+              "title": "萨拉斯特罗的咏叹调「在这神圣殿堂」",
+              "description": "低音的庄严与温暖，莫扎特心中理想世界的声音——宽恕、智慧与光明",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-opera-004",
+          "title": "《女人心》(Così fan tutte)",
+          "domain": "music",
+          "description": "K.588，两幕喜歌剧。表面是一场关于忠贞的赌局，内里是莫扎特对人性最温柔也最残酷的凝视。",
+          "hints": "第二幕的六重唱是整部歌剧的密钥——每个角色都在说谎，但音乐从不撒谎。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-opera-004-1",
+              "title": "序曲与「Soave sia il vento」三重唱",
+              "description": "送别的三重唱，海风、叹息与谎言交织成歌剧中最美的告别",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-opera-004-2",
+              "title": "费奥迪莉姬的摇摆：从坚定到动摇",
+              "description": "第一幕誓言忠贞的咏叹调与第二幕投降的咏叹调形成残酷对照",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-opera-005",
+          "title": "《伊多梅纽斯》",
+          "domain": "music",
+          "description": "K.366，三幕正歌剧，莫扎特25岁时的野心之作。克里特王伊多梅纽斯面对神谕与父爱的撕裂，管弦乐的暴风雨场景预示了浪漫主义的到来。",
+          "hints": "关注第三幕的暴风雨场景——莫扎特在这里用管弦乐描绘了一幅透纳式的海洋画。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-opera-005-1",
+              "title": "伊利亚的咏叹调「Padre, germani, addio」",
+              "description": "流亡公主的哀歌，木管与弦乐的对话如同内心独白的两个声音",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-opera-005-2",
+              "title": "第三幕暴风雨与海神的愤怒",
+              "description": "管弦乐的咆哮描绘海上风暴，铜管与定音鼓制造出歌剧中罕见的自然力量感",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mozart-symphony-concerto",
+      "name": "交响与协奏的银河",
+      "description": "从早期模仿海顿到晚期三大交响曲的超越，从钢琴协奏曲的独白到单簧管的告别，莫扎特用纯器乐构建了一个无需言语的情感宇宙。",
+      "items": [
+        {
+          "id": "mozart-sym-001",
+          "title": "第40号交响曲 g小调 K.550",
+          "domain": "music",
+          "description": "莫扎特最著名的交响曲，g小调的焦灼与不安贯穿始终。第一乐章的主题是古典音乐中被引用最多的旋律之一。",
+          "hints": "第四乐章的发展部是莫扎特最激进的和声实验——在18世纪的框架里，他几乎触到了浪漫主义的边界。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-sym-001-1",
+              "title": "第一乐章：g小调的焦灼叹息",
+              "description": "中提琴的脉动上方，小提琴唱出那个全世界都认识的主题——急促、不安、无法平息",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-sym-001-2",
+              "title": "第四乐章：发展部的和声冒险",
+              "description": "主题在不同调性间剧烈碰撞，莫扎特在古典奏鸣曲式的框架内制造了令人眩晕的紧张感",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-sym-002",
+          "title": "第41号交响曲「朱庇特」K.551",
+          "domain": "music",
+          "description": "莫扎特最后一部交响曲，C大调的辉煌与终乐章五声部赋格的壮丽，是古典交响曲的巅峰之作。",
+          "hints": "终乐章的赋格段落同时叠加五个主题——试着每次重听时只跟踪一个声部，你会发现一个全新的宇宙。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-sym-002-1",
+              "title": "第一乐章：英雄性的C大调宣言",
+              "description": "开头的齐奏与抒情副题的对比，展现莫扎特驾驭宏大叙事的能力",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-sym-002-2",
+              "title": "第四乐章：五声部赋格——复调艺术的银河",
+              "description": "五个主题同时展开的赋格是音乐史上最伟大的复调成就之一，巴赫的对位法在交响乐中重获新生",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-sym-003",
+          "title": "第21号钢琴协奏曲 C大调 K.467",
+          "domain": "music",
+          "description": "因电影《乱世乳糖》(Elvira Madigan)而广为人知，第二乐章的行板是莫扎特最令人心碎的慢板之一。",
+          "hints": "第二乐章的钢琴旋律在弦乐的三连音织体上漂浮——闭上眼睛，你会看到月光在湖面上的倒影。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-sym-003-1",
+              "title": "第二乐章：行板中的月光",
+              "description": "加弱音器的弦乐三连音如同呼吸，钢琴在上方唱出一条几乎静止的旋律线",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-sym-003-2",
+              "title": "第三乐章：回旋曲的阳光回归",
+              "description": "从第二乐章的梦境中醒来，C大调的明朗与活力重新充满空间",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-sym-004",
+          "title": "第23号钢琴协奏曲 A大调 K.488",
+          "domain": "music",
+          "description": "莫扎特钢琴协奏曲中最亲密的一部，A大调的温暖如同壁炉前的对话，第二乐章升f小调的柔板是他最深沉的独白。",
+          "hints": "第二乐章是莫扎特极少使用升f小调的作品之一——这个调性的稀有让悲伤显得格外私密。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-sym-004-1",
+              "title": "第一乐章：A大调的温暖拥抱",
+              "description": "单簧管首次取代双簧管进入协奏曲编制，带来更柔和的音色质感",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-sym-004-2",
+              "title": "第二乐章：升f小调的私密独白",
+              "description": "西西里舞曲节奏中的深沉悲歌，钢琴与管弦乐的对话如同自问自答",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-sym-005",
+          "title": "单簧管协奏曲 A大调 K.622",
+          "domain": "music",
+          "description": "莫扎特最后的器乐作品，写给好友安东·施塔德勒。单簧管的音色被莫扎特称为'最接近人声的乐器'，这部作品是他留给世界的最后一封情书。",
+          "hints": "第二乐章的旋律会在你生命中某个安静的瞬间自动浮现——那就是莫扎特的魔法生效的时刻。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-sym-005-1",
+              "title": "第二乐章：柔板——人间最温柔的告别",
+              "description": "单簧管在中低音区唱出一条无比平静的旋律，没有激烈的起伏，只有接纳与释然",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-sym-005-2",
+              "title": "第三乐章：回旋曲——带着微笑的最后一舞",
+              "description": "明朗的舞曲节奏中带着一丝忧伤的底色，像是在说'没关系，一切都很好'",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-sym-006",
+          "title": "第39号交响曲 降E大调 K.543",
+          "domain": "music",
+          "description": "晚期三大交响曲的开篇，降E大调的高贵与温暖，连接曲是莫扎特对海顿的致敬与超越。没有双簧管的编制赋予它独特的柔和音色。",
+          "hints": "第三乐章的小步舞曲有一段单簧管独奏，音色像是在深夜的舞厅里，所有人都离开后，一个人独自跳舞。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-sym-006-1",
+              "title": "序奏：法国序曲的庄严回声",
+              "description": "附点节奏的庄严开场，随后转入明朗的快板，古典与巴洛克在这里交汇",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-sym-006-2",
+              "title": "第三乐章：独舞的单簧管",
+              "description": "小步舞曲三声中部的单簧管独奏，孤独而优美的旋律线",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mozart-chamber-sacred",
+      "name": "室内乐与灵魂之声",
+      "description": "从弦乐四重奏的私密对话到安魂曲的天堂叩门，莫扎特最内省、最接近灵魂的音乐都在这里。",
+      "items": [
+        {
+          "id": "mozart-chamber-001",
+          "title": "安魂曲 d小调 K.626",
+          "domain": "music",
+          "description": "莫扎特未完成的遗作，死亡的阴影与对光明的渴望交织。「Lacrimosa」是他亲笔写下的最后几个小节。",
+          "hints": "听「Lacrimosa」时注意第8小节——那是莫扎特停笔的地方，之后的每一个音符都出自他学生的手。你能听出那条分界线吗？",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-chamber-001-1",
+              "title": "「Introitus」：d小调的黑暗入口",
+              "description": "巴塞管的低沉引导灵魂步入黑暗甬道，合唱在颤抖中呼唤永恒的安息",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-chamber-001-2",
+              "title": "「Lacrimosa」：莫扎特的最后八小节",
+              "description": "泪水之日，合唱在附点节奏中一步步攀升，在第八小节戛然而止——莫扎特的笔迹到此为止",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-chamber-001-3",
+              "title": "「Lux Aeterna」：永恒之光",
+              "description": "虽由学生续写，但主题源自莫扎特的草稿，光明最终穿透了d小调的黑暗",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-chamber-002",
+          "title": "弦乐四重奏「不协和音」K.465",
+          "domain": "music",
+          "description": "海顿四重奏集的第六首，开头的慢板引子因大胆的不协和音程震惊了同时代的音乐家，海顿本人称赞莫扎特是他所知最伟大的作曲家。",
+          "hints": "反复听前两分钟的引子——第一次可能觉得刺耳，第五次你会觉得它是通往光明的必经隧道。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-chamber-002-1",
+              "title": "引子：黑暗中的摸索",
+              "description": "四件乐器在不同调性间徘徊，制造出一种令人不安的迷失感",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-chamber-002-2",
+              "title": "快板主部：C大调的解放",
+              "description": "不协和音突然解决到明亮的C大调，如同走出隧道看到阳光",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-chamber-003",
+          "title": "C大调弦乐五重奏 K.515",
+          "domain": "music",
+          "description": "莫扎特室内乐的巅峰之一，五件弦乐器的声部独立性达到极致，第一乐章的展开部如同五个人同时讲述各自的故事却奇迹般和谐。",
+          "hints": "注意两把中提琴的角色——莫扎特赋予了中提琴前所未有的独立地位，它不再是附庸。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-chamber-003-1",
+              "title": "第一乐章：大提琴的壮阔开场",
+              "description": "大提琴以宽广的音程跳跃开场，随后五件乐器逐一加入，织成丰厚的声网",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-chamber-003-2",
+              "title": "第三乐章：小步舞曲中的对话",
+              "description": "两把中提琴的二重奏片段展现出莫扎特对这件乐器的特殊偏爱",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-chamber-004",
+          "title": "「圣体颂」K.618",
+          "domain": "music",
+          "description": "莫扎特去世前数月写下的经文歌，只有两分钟，却是他最纯净的声乐作品。旋律的简单与和声的精妙形成令人屏息的反差。",
+          "hints": "这是莫扎特最短的杰作之一——两分钟内，他用最少的音符说出了最多的话。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-chamber-004-1",
+              "title": "女高音独唱段落",
+              "description": "如同从天堂传来的声音，旋律线几乎没有装饰，纯粹到透明",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-chamber-004-2",
+              "title": "合唱与管风琴的终止",
+              "description": "简短的合唱回应后，管风琴的持续音如同余晖消散",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mozart-keyboard",
+      "name": "键盘上的星辰",
+      "description": "莫扎特的钢琴奏鸣曲与独奏作品，是他最个人化的表达。没有乐队的衬托，只有十根手指与88个键之间的亲密对话。",
+      "items": [
+        {
+          "id": "mozart-key-001",
+          "title": "第11号钢琴奏鸣曲 A大调 K.331「土耳其进行曲」",
+          "domain": "music",
+          "description": "第一乐章不是奏鸣曲式而是变奏曲，第三乐章的「土耳其进行曲」可能是莫扎特辨识度最高的旋律。",
+          "hints": "忘掉土耳其进行曲，认真听第一乐章的主题与变奏——每一次变奏都是莫扎特展示'同一句话可以有多少种说法'的大师课。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-key-001-1",
+              "title": "第一乐章：主题与六段变奏",
+              "description": "优雅的A大调主题经历六次变身，从温柔到辉煌，展现莫扎特的变奏魔法",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-key-001-2",
+              "title": "第三乐章「土耳其进行曲」",
+              "description": "模仿土耳其军乐队的异域风情，左手的伴奏模拟大鼓与铙钹",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-key-002",
+          "title": "c小调幻想曲 K.475",
+          "domain": "music",
+          "description": "莫扎特最黑暗的钢琴作品，自由的幻想曲式打破了古典规范的束缚。开头的下行半音阶如同坠入深渊，是贝多芬和肖邦的预言。",
+          "hints": "这首作品常与K.457奏鸣曲一起演奏——先听幻想曲的黑暗，再听奏鸣曲的挣扎，最后感受c小调的重量。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-key-002-1",
+              "title": "开头：下行半音阶的深渊",
+              "description": "没有任何铺垫，直接坠入c小调的黑暗，和声的不确定性制造出强烈的不安感",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-key-002-2",
+              "title": "D大调插段：黑暗中的一线光",
+              "description": "短暂的大调段落如同深渊中仰望天空的一瞬，随后又被黑暗吞噬",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-key-003",
+          "title": "双钢琴奏鸣曲 D大调 K.448",
+          "domain": "music",
+          "description": "为两架钢琴而作，与姐姐南内尔的童年记忆相连。两架钢琴的对话如同镜像中的自己，这首作品后来因'莫扎特效应'的研究而广为人知。",
+          "hints": "试着分别跟踪两架钢琴的声部——它们有时对话、有时模仿、有时竞赛，如同两个灵魂在游戏。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-key-003-1",
+              "title": "第一乐章：双钢琴的镜像游戏",
+              "description": "两架钢琴交替呈现主题，如同两面镜子无限反射",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-key-003-2",
+              "title": "第二乐章：行板中的温柔对望",
+              "description": "两架钢琴不再竞赛，而是在安静中彼此倾听，如同深夜的低声细语",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mozart-crossover",
+      "name": "跨越感官的共振",
+      "description": "莫扎特的音乐从来不是孤立的。他的旋律启发了画家的笔触、建筑的线条、味觉的层次。这一章探索莫扎特与其他艺术形式之间的神秘连接。",
+      "items": [
+        {
+          "id": "mozart-cross-001",
+          "title": "萨尔茨堡：莫扎特的摇篮",
+          "domain": "synesthesia",
+          "description": "盖特莱德街9号莫扎特出生地、萨尔茨堡主教座堂（莫扎特受洗处）、米拉贝尔宫花园。巴洛克建筑的金色与阿尔卑斯山的雪白构成莫扎特音乐的底色。",
+          "hints": "站在莫扎特出生地的窗前，想象1756年的盖特莱德街——街道的喧嚣、教堂的钟声、远处的山峦，这些声音都流进了他的音乐。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-cross-001-1",
+              "title": "盖特莱德街9号：天才降生的阁楼",
+              "description": "莫扎特出生的公寓如今是博物馆，展出他童年的小提琴和羽管键琴",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-cross-001-2",
+              "title": "萨尔茨堡主教座堂与米拉贝尔宫",
+              "description": "莫扎特受洗的教堂与他常在花园中散步的宫殿，巴洛克美学的视觉注脚",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-cross-002",
+          "title": "维也纳金色大厅",
+          "domain": "synesthesia",
+          "description": "维也纳爱乐乐团的主场，虽然建于莫扎特去世后80年，但这里是他音乐遗产最重要的圣殿之一。新年音乐会上的莫扎特作品已成传统。",
+          "hints": "如果有机会现场聆听，注意大厅的声学——你会理解为什么同一首曲子在金色大厅听起来有不同的'呼吸感'。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-cross-002-1",
+              "title": "大厅声学：金色共鸣的秘密",
+              "description": "鞋盒式厅堂设计创造出约两秒的混响时间，让莫扎特的弦乐如同在金色光芒中流淌",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-cross-002-2",
+              "title": "维也纳新年音乐会中的莫扎特时刻",
+              "description": "传统曲目单中莫扎特的嬉游曲与舞曲，是新年仪式感的重要组成",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-cross-003",
+          "title": "洛可可绘画与莫扎特的音乐色彩",
+          "domain": "painting",
+          "description": "华托《发舟西苔岛》、弗拉戈纳尔《秋千》——洛可可绘画的轻盈、优雅与感官愉悦，与莫扎特音乐的气质高度同构。",
+          "hints": "边听费加罗序曲边看华托的画——你会发现弦乐的快速音群和画面中飘动的丝绸裙摆有着相同的律动。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-cross-003-1",
+              "title": "华托《发舟西苔岛》：音乐般的画面节奏",
+              "description": "人物的姿态编排如同一首小步舞曲，色彩的渐变如同和声的推进",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-cross-003-2",
+              "title": "弗拉戈纳尔《秋千》：视觉的嬉游曲",
+              "description": "粉色的裙摆在空中划出弧线，光线的跳跃感与莫扎特钢琴奏鸣曲的装饰音异曲同工",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-cross-004",
+          "title": "莫扎特巧克力球（Mozartkugel）与维也纳咖啡",
+          "domain": "flavor",
+          "description": "萨尔茨堡的莫扎特巧克力球——杏仁糖、开心果酱与黑巧克力的三层结构，如同莫扎特音乐的层次感。维也纳的Melange咖啡则是他日常生活的味觉底色。",
+          "hints": "吃莫扎特巧克力球时，试着一层层品尝——外层黑巧的微苦、中层杏仁糖的甜蜜、内核开心果的清新，像不像一首小奏鸣曲的三个乐章？",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-cross-004-1",
+              "title": "Fürst 原版莫扎特巧克力球",
+              "description": "1890年萨尔茨堡糕点师Paul Fürst发明的手工巧克力球，银色锡纸包装是正宗标志",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-cross-004-2",
+              "title": "维也纳Café Central的Melange时刻",
+              "description": "莫扎特时代的咖啡馆文化遗产，一杯Melange配一块Sachertorte，是维也纳的味觉仪式",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-cross-005",
+          "title": "电影《Amadeus》（1984）",
+          "domain": "film",
+          "description": "米洛斯·福尔曼执导，F·莫里·亚伯拉罕饰演萨列里，汤姆·赫尔斯饰演莫扎特。虽然历史细节多有杜撰，但它是理解'天才之痛'最有力的影像文本。",
+          "hints": "注意萨列里'听到'莫扎特手稿时的那场戏——导演用纯音乐和演员的表情讲述了一个关于才华与嫉妒的故事，没有一句对白。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-cross-005-1",
+              "title": "萨列里读谱：天才的残酷性",
+              "description": "萨列里翻阅莫扎特手稿，音乐在脑中响起，他崩溃于一个事实：上帝选择了那个粗俗的男孩",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-cross-005-2",
+              "title": "安魂曲口述：死亡床前的最后创作",
+              "description": "莫扎特在病床上向萨列里口述安魂曲的配器，两个对手在音乐面前终于平等",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "mozart-cross-006",
+          "title": "Chopin 夜曲与莫扎特的精神传承",
+          "domain": "music",
+          "description": "Chopin 曾说'莫扎特涵盖了音乐的全部'。夜曲中那些歌唱性的旋律线、精致的装饰音，以及'少即是多'的美学，都能追溯到莫扎特的慢板乐章。",
+          "hints": "先听莫扎特 K.488 第二乐章，再听 Chopin Op.9 No.3——你会发现一条从维也纳到巴黎的旋律血脉。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "mozart-cross-006-1",
+              "title": "从 K.488 到 Op.9 No.3：歌唱性旋律的传承",
+              "description": "莫扎特慢板中的声乐化旋律线直接影响了 Chopin 夜曲的写作方式",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "mozart-cross-006-2",
+              "title": "装饰音的美学：莫扎特的优雅与 Chopin 的华丽",
+              "description": "同样是装饰音，莫扎特追求对称的优雅，Chopin 追求自由的华丽，但内核相通",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

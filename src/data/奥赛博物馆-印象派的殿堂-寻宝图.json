@@ -1,0 +1,524 @@
+{
+  "treasureMap": {
+    "id": "musee-orsay-odyssey",
+    "name": "奥赛博物馆：印象派的殿堂",
+    "description": "从火车站到艺术圣殿，奥赛博物馆收藏了1848至1914年间最璀璨的艺术星光。以奥赛的镇馆之宝为起点，延伸至印象派画家的故地、同时代的音乐与文学，用全感官重走那个色彩爆发的年代。",
+    "creator": "ArtStarMap",
+    "version": "1.0.0",
+    "type": "geographic"
+  },
+  "chapters": [
+    {
+      "id": "orsay-impressionism",
+      "name": "印象派厅：光的革命",
+      "description": "奥赛博物馆五层（顶层），自然光从玻璃穹顶倾泻而下，照亮印象派最核心的收藏。这里是整座博物馆的灵魂所在。",
+      "items": [
+        {
+          "id": "orsay-imp-001",
+          "title": "莫奈《睡莲》系列与《鲁昂大教堂》",
+          "domain": "painting",
+          "description": "奥赛收藏多幅莫奈不同时期的睡莲习作，以及《鲁昂大教堂》连作中的数幅——同一座建筑在不同光线下呈现出完全不同的面貌。",
+          "hints": "在《鲁昂大教堂》系列前来回走动，观察同一座建筑如何在晨光、正午、黄昏中变成三幅完全不同的画——这就是莫奈终其一生追问的问题：什么是'真实'？",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-imp-001-1",
+              "title": "《睡莲》早期习作：吉维尼花园的第一道光",
+              "description": "与橘园美术馆的巨幅睡莲不同，奥赛的版本更小更亲密，能看到莫奈的笔触细节",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-imp-001-2",
+              "title": "《鲁昂大教堂》连作：光是唯一的主角",
+              "description": "莫奈在大教堂对面租了房间，日复一日地记录光线的变化，每一幅都是一个瞬间的化石",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-imp-002",
+          "title": "雷诺阿《煎饼磨坊的舞会》",
+          "domain": "painting",
+          "description": "1876年，雷诺阿在蒙马特的露天舞会中捕捉了巴黎人最日常的欢乐。斑驳的树影洒落在舞者身上，这是印象派'捕捉瞬间'理念的极致实践。",
+          "hints": "注意画面中光斑的处理——那些洒在人脸和衣服上的圆形光点不是装饰，是透过树叶缝隙的真实阳光。雷诺阿把画架搬到了舞会现场。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-imp-002-1",
+              "title": "斑驳树影：光与色的交响",
+              "description": "蓝紫色的阴影与金色的阳光在人物身上跳跃，每一个光斑都是一笔",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-imp-002-2",
+              "title": "人群的律动：印象派的社会学",
+              "description": "工人、学生、缝纫女工在画中平等地享受周日午后，雷诺阿画的不只是光，更是巴黎的民主精神",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-imp-003",
+          "title": "莫奈《阿让特伊的帆船》与塞纳河系列",
+          "domain": "painting",
+          "description": "阿让特伊是莫奈1871-1878年的居住地，塞纳河上的帆船、桥梁与倒影构成了他这一时期最重要的主题。水面的光影处理是印象派技法的教科书。",
+          "hints": "这幅画对你有特殊意义——你曾在奥赛亲眼见过它。试着回忆当时站在画前的感受，那个瞬间的光线、温度、心跳，都是你的感官指纹。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-imp-003-1",
+              "title": "水面的光影魔法：碎笔触的秘密",
+              "description": "莫奈用短促的横向笔触描绘水面，颜料的厚薄变化模拟了光在波纹上的跳跃",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-imp-003-2",
+              "title": "天空与水面的色彩镜像",
+              "description": "天空的颜色被倒映在水中但并非简单复制，莫奈在倒影中混入了更深的蓝和更暖的绿",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-imp-004",
+          "title": "德加《舞蹈课》与芭蕾系列",
+          "domain": "painting",
+          "description": "德加一生画了超过1500幅芭蕾主题作品。奥赛收藏了其中最重要的几幅，包括《舞蹈课》——他用不对称构图和裁切手法，让观者如同透过门缝偷窥排练。",
+          "hints": "德加不是在画'美丽的芭蕾'，他是在画'劳动中的身体'——注意那些休息、伸展、擦汗的舞者，她们的疲惫和不完美才是德加真正想捕捉的。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-imp-004-1",
+              "title": "《舞蹈课》：偷窥者的视角",
+              "description": "画面右侧大片空白、左侧密集的舞者群像，构图如同一张被随手裁切的照片",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-imp-004-2",
+              "title": "粉彩芭蕾系列：色粉笔的柔光效果",
+              "description": "德加晚年视力衰退后转向粉彩，反而获得了更梦幻的色彩效果，芭蕾舞裙的薄纱质感达到极致",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-imp-005",
+          "title": "马奈《草地上的午餐》",
+          "domain": "painting",
+          "description": "1863年落选沙龙展的丑闻之作，裸体女性与衣着整齐的绅士同坐草地。这幅画不属于印象派，却是印象派革命的导火索。",
+          "hints": "画面中的光线是'平'的——没有古典绘画的明暗渐变，马奈用近乎平涂的方式宣告：绘画不必模拟三维，画布本身就是真实。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-imp-005-1",
+              "title": "丑闻的核心：不是裸体，是目光",
+              "description": "维多利亚·默兰直视观者的目光打破了'裸体画中女性应目光回避'的传统，这才是真正的冒犯",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-imp-005-2",
+              "title": "平涂的革命：告别明暗法",
+              "description": "马奈有意削弱立体感，用强烈的明暗对比取代柔和的过渡，为现代绘画开辟了道路",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-imp-006",
+          "title": "西斯莱《莫雷的教堂》与乡村风景",
+          "domain": "painting",
+          "description": "印象派中最安静的声音。西斯莱一生专注于风景，尤其是塞纳河谷和莫雷周围的天空、河流与教堂。他的画面没有雷诺阿的热闹或莫奈的野心，只有一种近乎冥想的平静。",
+          "hints": "西斯莱的天空占据了画面的三分之二甚至更多——他画的不是地面上的景物，而是光照射在景物上的那一层空气。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-imp-006-1",
+              "title": "《莫雷的教堂》：阳光下的石墙",
+              "description": "与莫奈的鲁昂大教堂相比，西斯莱的教堂更朴素、更安静，像是乡间午后的一声叹息",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-imp-006-2",
+              "title": "塞纳河谷的天空：云层的肖像画",
+              "description": "西斯莱对云层的描绘达到了气象学的精度，每一幅画都能判断出当天的天气和时辰",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orsay-post-impressionism",
+      "name": "后印象派厅：超越光影",
+      "description": "当印象派解放了色彩之后，下一代画家追问更深的问题：色彩能表达情感吗？形式能独立于现实吗？梵高、塞尚、高更在奥赛的墙上给出了各自的答案。",
+      "items": [
+        {
+          "id": "orsay-post-001",
+          "title": "梵高《星夜》素描稿与《奥维尔的教堂》",
+          "domain": "painting",
+          "description": "奥赛收藏了梵高阿尔勒和奥维尔时期的重要作品。《奥维尔的教堂》中扭曲的线条和深蓝的天空，是梵高内心风暴的直接投射。",
+          "hints": "站在《奥维尔的教堂》前，注意地面的两条小路——它们分叉而去，永不汇合。梵高画这幅画时距离离世只有几周。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-post-001-1",
+              "title": "《奥维尔的教堂》：扭曲的天空与分叉的路",
+              "description": "教堂的轮廓线在深蓝天空中波动如同火焰，建筑本身似乎在呼吸",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-post-001-2",
+              "title": "《自画像》(1889)：圣雷米疗养院中的凝视",
+              "description": "蓝绿色的漩涡背景中，梵高的目光异常冷静，笔触的狂乱与眼神的清醒形成撕裂",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-post-002",
+          "title": "塞尚《玩纸牌的人》",
+          "domain": "painting",
+          "description": "塞尚晚年的杰作，两个普罗旺斯农民对坐玩牌。没有叙事、没有戏剧，只有色块与几何的纯粹建构。毕加索称塞尚为'我们所有人的父亲'。",
+          "hints": "注意桌面——它的透视是'错'的。塞尚故意打破单一视点，同时呈现多个角度，这正是立体主义的种子。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-post-002-1",
+              "title": "多视点的桌面：立体主义的预言",
+              "description": "桌面的透视从两个角度同时呈现，塞尚在这里埋下了毕加索将要引爆的炸弹",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-post-002-2",
+              "title": "色彩的建筑学：用色块代替线条",
+              "description": "人物的形体不是用轮廓线界定的，而是用冷暖色块的交替来构建立体感",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-post-003",
+          "title": "高更《大溪地女人》系列",
+          "domain": "painting",
+          "description": "高更逃离巴黎文明，在南太平洋寻找原始的纯真。奥赛收藏的大溪地系列展示了他用平面化的色彩和象征性的构图创造的'伊甸园'。",
+          "hints": "高更的'原始'是被建构的——他笔下的大溪地女人姿态来自埃及浮雕和爪哇庙宇，这不是纪实，是一个欧洲人关于'异域'的梦。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-post-003-1",
+              "title": "《Arearea》：红色的大地与金色的狗",
+              "description": "反自然主义的色彩——大地是红色的，狗是金色的，高更宣布色彩不再服务于'真实'",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-post-003-2",
+              "title": "平面化与装饰性：日本版画的影响",
+              "description": "高更从浮世绘中学到了取消阴影和使用轮廓线的手法，融入大溪地题材",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-post-004",
+          "title": "修拉《马戏团》与点彩派",
+          "domain": "painting",
+          "description": "修拉将色彩理论推向极致——每一个色点都经过科学计算，并列放置在画布上，由观者的视网膜完成混色。《马戏团》是他未完成的遗作。",
+          "hints": "站远一步看整体效果，再凑近看单个色点——你会经历一次'魔术揭秘'的过程：那些跳动的色彩原来是这样工作的。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-post-004-1",
+              "title": "点彩法的科学：光学混色原理",
+              "description": "蓝色点和黄色点并列放置，在一定距离外融合为绿色，比调色板上混色更加明亮",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-post-004-2",
+              "title": "《马戏团》：未完成的最后画作",
+              "description": "修拉31岁猝逝，画面右下角仍可见未完成的底稿，生命的中断凝固在画布上",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-post-005",
+          "title": "卢梭《弄蛇人》",
+          "domain": "painting",
+          "description": "亨利·卢梭从未去过热带丛林，他的异域场景全部来自巴黎植物园和画册。但正是这种'不专业'赋予了他的画面一种超现实的梦境质感。",
+          "hints": "卢梭的植物每一片叶子都被单独描绘，没有大气透视、没有虚化——这不是写实，是一个从未出过巴黎的邮局职员对'远方'的想象。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-post-005-1",
+              "title": "丛林的梦：来自巴黎植物园的灵感",
+              "description": "卢梭在温室里写生热带植物，再在画室中将它们重组为不存在的丛林",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-post-005-2",
+              "title": "素人画家的胜利：毕加索的敬意",
+              "description": "毕加索在卢梭去世后举办了著名的'卢梭宴会'，称其为'伟大的原始主义者'",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orsay-sculpture-decorative",
+      "name": "雕塑与装饰艺术长廊",
+      "description": "奥赛的中央大厅保留了火车站时代的钢铁骨架，两侧陈列着19世纪下半叶的雕塑杰作。从罗丹的青铜到新艺术运动的玻璃器皿，这里是触觉与视觉交汇的殿堂。",
+      "items": [
+        {
+          "id": "orsay-sculpt-001",
+          "title": "罗丹《地狱之门》局部铸件与习作",
+          "domain": "sculpture",
+          "description": "奥赛收藏了《地狱之门》的多件局部铸件和预备习作，包括《思想者》的早期版本。这些碎片比完整作品更能展示罗丹的创作过程——从但丁的文字到青铜的肌肉。",
+          "hints": "看罗丹的手部特写铸件——他对手指关节和肌腱的处理比解剖学教科书更精确，但同时又充满了情感的张力。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-sculpt-001-1",
+              "title": "《思想者》习作：从地狱之门顶端独立出来",
+              "description": "最初是但丁坐在地狱之门顶端俯瞰众生的形象，后来成为独立的思考者图腾",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-sculpt-001-2",
+              "title": "手部与躯干铸件：罗丹的解剖诗学",
+              "description": "脱离了完整身体的手掌和躯干碎片，反而获得了独立的表达力",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-sculpt-002",
+          "title": "卡蜜儿·克洛岱尔《成熟》",
+          "domain": "sculpture",
+          "description": "罗丹的学生与情人，卡蜜儿在这件作品中用三个人物讲述了自己被抛弃的故事——年老的女人拉走男人，年轻的女人跪地挽留。自传性的艺术最痛也最真。",
+          "hints": "注意年轻女人伸出的手——指尖几乎触到了男人的手臂，但终究没有。那几厘米的空隙是整件雕塑最沉重的部分。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-sculpt-002-1",
+              "title": "三人群像的戏剧张力",
+              "description": "年老女人、中年男人、年轻女人的三角构图，重力和姿态讲述了一个无需文字的故事",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-sculpt-002-2",
+              "title": "指尖的几厘米：永远触不到的距离",
+              "description": "年轻女人伸向男人的手停在空中，这个未完成的触碰比任何接触都更有力量",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-sculpt-003",
+          "title": "新艺术运动玻璃器皿：加莱与拉力克",
+          "domain": "synesthesia",
+          "description": "埃米尔·加莱的植物纹玻璃花瓶和勒内·拉力克的首饰设计，展示了世纪之交'自然即装饰'的美学革命。每件作品都是工艺与自然观察的结晶。",
+          "hints": "加莱的花瓶需要逆光观看——他在多层彩色玻璃中雕刻植物纹样，光线穿透时会呈现出不同的色彩层次。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-sculpt-003-1",
+              "title": "加莱的多层浮雕玻璃：光的容器",
+              "description": "多达五层的彩色玻璃叠加，每一层雕刻不同深度的植物纹样，是玻璃工艺的极致",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-sculpt-003-2",
+              "title": "拉力克的蜻蜓胸针：新艺术的图腾",
+              "description": "蜻蜓翅膀的半透明珐琅模拟了自然界的光学效果，挑战了珠宝必须用贵金属的传统",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-sculpt-004",
+          "title": "奥赛博物馆建筑本身：从火车站到艺术殿堂",
+          "domain": "synesthesia",
+          "description": "1900年为世博会建造的奥尔良火车站，1986年改建为博物馆。大钟、钢铁穹顶与石灰石外墙的共存，本身就是一件关于时间与转变的艺术品。",
+          "hints": "站在中央大厅仰望穹顶——钢铁骨架的工业美学与展品的艺术美学形成对话。火车站的大钟仍在走动，提醒你这里曾经承载着旅人的出发与归来。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-sculpt-004-1",
+              "title": "大钟：时间的见证者",
+              "description": "面向塞纳河的巨型钟面从火车站时代保留至今，透过钟面可以看到对岸的杜伊勒里花园",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-sculpt-004-2",
+              "title": "钢铁穹顶与自然光：盖·奥朗蒂的改建魔法",
+              "description": "建筑师保留了火车站的钢铁结构，通过调整天窗角度为画作提供最理想的自然光",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orsay-beyond-walls",
+      "name": "走出奥赛：感官的延伸",
+      "description": "奥赛的收藏不是终点，而是一把钥匙。顺着印象派的线索走出博物馆，去画家们曾经生活和创作的地方，听与他们同时代的音乐，读同一片天空下写出的文字。",
+      "items": [
+        {
+          "id": "orsay-beyond-001",
+          "title": "吉维尼：莫奈的花园",
+          "domain": "synesthesia",
+          "description": "距巴黎80公里，莫奈在这里生活了43年。日本桥、睡莲池、花径——画中的一切在这里触手可及。四月的紫藤、六月的睡莲、十月的枯荷，每个季节都是一幅新画。",
+          "hints": "清晨开门时第一批入场——当游客还没到来，花园里只有你和莫奈看到的同一片光线。站在日本桥上望向睡莲池的角度，就是莫奈画架的位置。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-beyond-001-1",
+              "title": "日本桥与睡莲池：从画布回到现实",
+              "description": "绿色的拱桥、紫色的紫藤、水面的倒影——你在奥赛看到的每一幅画都有对应的真实角落",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-beyond-001-2",
+              "title": "莫奈的画室与卧室：一个创作者的日常",
+              "description": "墙上挂满了日本浮世绘（莫奈是狂热的收藏家），画室里还原了他作画时的光线条件",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-beyond-002",
+          "title": "蒙马特：印象派的起点",
+          "domain": "synesthesia",
+          "description": "雷诺阿的煎饼磨坊、德加的咖啡馆、劳特累克的红磨坊——19世纪末的蒙马特是整个现代艺术的摇篮。爬上圣心大教堂的台阶，俯瞰整个巴黎。",
+          "hints": "找到蒙马特的柯尔托街（Rue Cortot）——雷诺阿在这里租过画室，如今是蒙马特博物馆，花园里保留了他画《煎饼磨坊的舞会》时看到的那片天空。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-beyond-002-1",
+              "title": "煎饼磨坊旧址：雷诺阿画中的舞池",
+              "description": "如今仍是一家餐厅，虽然氛围已大不同，但阳光穿过梧桐树叶的角度没有变",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-beyond-002-2",
+              "title": "蒙马特博物馆与雷诺阿花园",
+              "description": "柯尔托街12号，展示蒙马特艺术史的小型博物馆，花园中可以眺望巴黎北部的屋顶",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-beyond-003",
+          "title": "Debussy《牧神午后前奏曲》",
+          "domain": "music",
+          "description": "印象派绘画在音乐中的镜像。Debussy用长笛的独奏开篇，描绘了马拉美诗中牧神在午后阳光中的慵懒幻梦。和声的模糊与色彩的溶解异曲同工。",
+          "hints": "听开头长笛独奏的同时想象莫奈的睡莲——那条旋律线就像水面上的一道波纹，没有明确的起点和终点。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-beyond-003-1",
+              "title": "长笛独奏：音乐中的印象派笔触",
+              "description": "全音阶的使用消解了传统调性的方向感，旋律如同光线在水面上漫射",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-beyond-003-2",
+              "title": "管弦色彩的溶解：和声即光影",
+              "description": "Debussy的配器手法让乐器的音色边界变得模糊，如同印象派画面中色彩的互相渗透",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-beyond-004",
+          "title": "Ravel《水之嬉戏》",
+          "domain": "music",
+          "description": "1901年的钢琴独奏曲，用键盘模拟水的各种形态——喷泉、溪流、瀑布。李斯特的技巧与Debussy的色彩在这里融合，成为钢琴印象主义的里程碑。",
+          "hints": "Ravel 说这首曲子的灵感来自'水声、喷泉和瀑布中各种声响的组合'——试着在听的时候识别每一种'水的形态'。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-beyond-004-1",
+              "title": "喷泉的上升与坠落：钢琴的水力学",
+              "description": "快速的琶音模拟水柱喷射，高音区的颤音是水珠散落时的闪光",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-beyond-004-2",
+              "title": "踏板的魔法：Ravel 的声音水彩",
+              "description": "延音踏板的精确使用让不同和声在空气中混合，如同水面上色彩的倒影相互渗透",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-beyond-005",
+          "title": "普鲁斯特《追忆似水年华》中的艺术",
+          "domain": "literature",
+          "description": "普鲁斯特笔下虚构的画家埃尔斯蒂尔融合了莫奈、惠斯勒和透纳的特征。小说中关于维米尔《代尔夫特风景》的段落是文学史上最伟大的艺术评论之一。",
+          "hints": "小说中斯万听到'凡特伊奏鸣曲'中小乐句的段落——普鲁斯特用文字描述音乐引发记忆洪流的体验，这就是你在做的'通感'翻译。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-beyond-005-1",
+              "title": "埃尔斯蒂尔的画：虚构中的印象派真相",
+              "description": "普鲁斯特通过虚构画家之口说出了比任何艺术评论都深刻的话：画家'不是在画他看到的，而是在画他看的方式'",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-beyond-005-2",
+              "title": "凡特伊奏鸣曲：文学中最伟大的通感描写",
+              "description": "斯万在沙龙中听到一段旋律，记忆与情感如潮水涌来——这是通感体验最经典的文学再现",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-beyond-006",
+          "title": "橘园美术馆：莫奈睡莲的最终归宿",
+          "domain": "painting",
+          "description": "距奥赛博物馆步行15分钟，杜伊勒里花园尽头。两间椭圆形展厅，八幅巨型睡莲环绕四壁，自然光从顶部洒下——这是莫奈为自己的画设计的'最终画框'。",
+          "hints": "在展厅中央的长椅上坐下，停留至少二十分钟。当你停止'看'而开始'被包围'的时候，你会理解莫奈为什么要画这么大——他不是在画睡莲，他是在制造一种沉浸。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-beyond-006-1",
+              "title": "椭圆形展厅：莫奈的冥想空间设计",
+              "description": "莫奈亲自参与了展厅设计，椭圆形的空间消除了角落和尽头，观者被画面360度包围",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-beyond-006-2",
+              "title": "晨·午·暮·夜：四个时段的睡莲",
+              "description": "八幅画对应一天不同时段的光线变化，从清晨的紫蓝到午后的金绿再到暮色的深红",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "orsay-beyond-007",
+          "title": "Saint-Germain-des-Prés 的咖啡与漫步",
+          "domain": "flavor",
+          "description": "从奥赛博物馆步行穿过塞纳河左岸，花神咖啡馆和双叟咖啡馆是几代艺术家的客厅。点一杯espresso，坐在露台上看行人——你正在做的事和一百年前的马奈没有区别。",
+          "hints": "左岸的漫步本身就是一件艺术作品——法语里'flâneur'（漫游者）指的就是这种无目的地走、全感官打开、让城市自己向你展示的状态。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "orsay-beyond-007-1",
+              "title": "花神咖啡馆：从波伏娃到你的espresso",
+              "description": "一杯咖啡的价格包含了一百年的文化地租，但阳光照在杯沿上的角度和波伏娃时代一样",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "orsay-beyond-007-2",
+              "title": "塞纳河左岸漫步：从奥赛到圣日耳曼",
+              "description": "沿河步行15分钟，经过旧书摊、桥上的锁和街头画家，这条路线本身就是一幅印象派画",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

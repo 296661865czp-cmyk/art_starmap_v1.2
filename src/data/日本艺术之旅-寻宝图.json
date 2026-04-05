@@ -1,0 +1,1690 @@
+{
+  "treasureMap": {
+    "id": "japan-art-tour",
+    "name": "日本艺术之旅",
+    "description": "探索日本四大城市的艺术瑰宝，从东京的现代数字艺术到京都的千年古韵，再到奈良的飞鸟时代佛像，每一座城市都是一首待续的艺术诗篇。",
+    "creator": "ArtStarMap",
+    "version": "1.0.0",
+    "type": "geographic"
+  },
+  "chapters": [
+    {
+      "id": "tokyo",
+      "name": "东京",
+      "description": "日本首都，现代艺术与传统文化交融的东方大都会，从数字艺术的未来感到百年匠心的传承",
+      "items": [
+        {
+          "id": "tokyo-001",
+          "title": "东京国立博物馆",
+          "domain": "painting",
+          "description": "涩泽敬三文库藏《源氏物语绘卷》、雪舟《秋冬山水图》及众多国宝级佛像",
+          "hints": "穿越千年时光长河，在佛像低语与绘卷流光中，触摸日本艺术的灵魂原点。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-001-1",
+              "title": "涩泽敬三文库藏《源氏物语绘卷》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-001-2",
+              "title": "雪舟《秋冬山水图》及众多国宝级佛像",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-002",
+          "title": "根津美术馆",
+          "domain": "synesthesia",
+          "description": "安藤忠雄设计的「竹之庭院」、千利休传承的茶室「待庵」及古九谷烧瓷器",
+          "hints": "在青竹摇曳的静谧庭院中，邂逅茶道侘寂之美，感受喧嚣都市中的禅意绿洲。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-002-1",
+              "title": "安藤忠雄设计的「竹之庭院」",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-002-2",
+              "title": "千利休传承的茶室「待庵」及古九谷烧瓷器",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-003",
+          "title": "TeamLab无界美术馆",
+          "domain": "synesthesia",
+          "description": "《水晶世界》互动光影装置、《花舞森林》沉浸式投影及《运动森林》体感空间",
+          "hints": "走进光与影的迷宫，让身体与数字艺术共舞，在无边界的幻境中重塑感官体验。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-003-1",
+              "title": "《水晶世界》互动光影装置",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-003-2",
+              "title": "《花舞森林》沉浸式投影及《运动森林》体感空间",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-004",
+          "title": "银座画廊巡礼",
+          "domain": "painting",
+          "description": "资生堂画廊（前卫艺术）、鸠居堂（日本画与墨）及数寄屋桥十字路口艺术橱窗",
+          "hints": "漫步亚洲最昂贵街道，在百年画廊与精品橱窗间，品味大和民族的极致匠心。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-004-1",
+              "title": "资生堂画廊（前卫艺术）",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-004-2",
+              "title": "鸠居堂（日本画与墨）及数寄屋桥十字路口艺术橱窗",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-005",
+          "title": "森美术馆",
+          "domain": "painting",
+          "description": "六本木新城53楼，常设展《世界建筑》、草间弥生《南瓜》限定展及三宅一生设计回顾",
+          "hints": "在都市之巅俯瞰东京夜景，同时探索当代艺术与建筑的无限可能。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-005-1",
+              "title": "六本木新城53楼，常设展《世界建筑》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-005-2",
+              "title": "草间弥生《南瓜》限定展及三宅一生设计回顾",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-006",
+          "title": "日本科学未来馆",
+          "domain": "synesthesia",
+          "description": "Geo-Cosmos地球仪展示、机器人ASIMO表演及「数字化的我」人体扫描互动",
+          "hints": "与最前沿的科技对话，在互动实验中预见人类未来的生活形态。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-006-1",
+              "title": "Geo-Cosmos地球仪展示",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-006-2",
+              "title": "机器人ASIMO表演及「数字化的我」人体扫描互动",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-007",
+          "title": "东京晴空塔",
+          "domain": "synesthesia",
+          "description": "高634米LED塔身、天望甲板350米观景台及「东京晴空城镇」商业区",
+          "hints": "攀登日本第一高塔，在云端俯瞰都市脉络，感受未来与传统的交织。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-007-1",
+              "title": "高634米LED塔身",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-007-2",
+              "title": "天望甲板350米观景台及「东京晴空城镇」商业区",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-008",
+          "title": "皇居",
+          "domain": "synesthesia",
+          "description": "皇居东御苑免费开放、江户城遗址石垣及二重桥经典摄影点",
+          "hints": "漫步皇城护城河畔，在皇居森林中寻找江户幕府的百年历史遗痕。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-008-1",
+              "title": "皇居东御苑免费开放",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-008-2",
+              "title": "江户城遗址石垣及二重桥经典摄影点",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-009",
+          "title": "浅草寺",
+          "domain": "synesthesia",
+          "description": "雷门红灯笼、仲见世通传统商店街、浅草文化中心及人力车体验",
+          "hints": "穿越江户风情老街，在千年古刹前投币祈福，品尝人形烧与抹茶。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-009-1",
+              "title": "雷门红灯笼",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-009-2",
+              "title": "仲见世通传统商店街",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-009-3",
+              "title": "浅草文化中心及人力车体验",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-010",
+          "title": "三得利音乐厅",
+          "domain": "music",
+          "description": "小泽征尔音乐塾定期公演、NHK交响乐团古典之夜及日本传统雅乐演奏",
+          "hints": "在「鞋盒式」顶级声场中，让尺八的苍凉与交响的辉煌交织，聆听东瀛之声的深邃。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-010-1",
+              "title": "小泽征尔音乐塾定期公演",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-010-2",
+              "title": "NHK交响乐团古典之夜及日本传统雅乐演奏",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-011",
+          "title": "国立剧场",
+          "domain": "synesthesia",
+          "description": "歌舞伎观赏席、能剧「猩猩」定期公演及日本传统演艺资料展示",
+          "hints": "在专业剧场欣赏原汁原味的传统演艺，感受日本古典舞台艺术的精妙。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-011-1",
+              "title": "歌舞伎观赏席",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-011-2",
+              "title": "能剧「猩猩」定期公演及日本传统演艺资料展示",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-012",
+          "title": "宝冢大剧场",
+          "domain": "synesthesia",
+          "description": "宝冢歌剧团星组/花组公演《凡尔赛玫瑰》、《Nuit de folie》华丽舞台秀",
+          "hints": "走进梦幻粉色殿堂，见证全女性演员演绎的极致浪漫，在华丽歌舞中沉醉不知归路。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-012-1",
+              "title": "宝冢歌剧团星组/花组公演《凡尔赛玫瑰》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-012-2",
+              "title": "《Nuit de folie》华丽舞台秀",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-013",
+          "title": "歌舞伎座 (东京)",
+          "domain": "synesthesia",
+          "description": "坂东玉三郎主演歌舞伎、旋转舞台机关体验及和服租赁观剧服务",
+          "hints": "坐在江户时代的「栈敷席」中，聆听隈研吾设计的木构共鸣，感受歌舞伎的喧哗与骚动。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-013-1",
+              "title": "坂东玉三郎主演歌舞伎",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-013-2",
+              "title": "旋转舞台机关体验及和服租赁观剧服务",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-014",
+          "title": "吉卜力美术馆",
+          "domain": "film",
+          "description": "宫崎骏手绘分镜原稿、龙猫巴士互动区及每场仅放映一次的独家短片",
+          "hints": "走进哈尔的移动城堡，每一块砖瓦都藏着童心密码，在这里找回遗失的纯真年代。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-014-1",
+              "title": "宫崎骏手绘分镜原稿",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-014-2",
+              "title": "龙猫巴士互动区及每场仅放映一次的独家短片",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-015",
+          "title": "东京巨蛋",
+          "domain": "sports",
+          "description": "读卖巨人队棒球赛、职业摔角NJPW赛事及杰尼斯偶像演唱会",
+          "hints": "融入万人应援的声浪海洋，感受日本国民运动棒球的热血，或在偶像星光下挥舞荧光棒。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-015-1",
+              "title": "读卖巨人队棒球赛",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-015-2",
+              "title": "职业摔角NJPW赛事及杰尼斯偶像演唱会",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-016",
+          "title": "筑地市场",
+          "domain": "synesthesia",
+          "description": "场内有鲜鱼批发拍卖、金枪鱼解剖表演、寿司大早餐及玉子烧老店",
+          "hints": "清晨五点参与金枪鱼拍卖，在最新鲜的海味中体验东京的清晨烟火。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-016-1",
+              "title": "场内有鲜鱼批发拍卖",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-016-2",
+              "title": "金枪鱼解剖表演",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-016-3",
+              "title": "寿司大早餐及玉子烧老店",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "tokyo-017",
+          "title": "东京站丸之内",
+          "domain": "synesthesia",
+          "description": "红砖复古站房、丸之内仲通り圣诞灯饰及周边历史建筑群夜景",
+          "hints": "在东京站前广场拍摄蓝调时刻，红砖站房如同时光隧道的入口。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "tokyo-017-1",
+              "title": "红砖复古站房",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "tokyo-017-2",
+              "title": "丸之内仲通り圣诞灯饰及周边历史建筑群夜景",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kyoto",
+      "name": "京都",
+      "description": "千年古都，日本传统美学与禅意文化的精神故乡，唐风与和式的完美交融",
+      "items": [
+        {
+          "id": "kyoto-001",
+          "title": "京都清水寺",
+          "domain": "synesthesia",
+          "description": "悬造式木构主殿、地主神社恋爱占卜及音羽瀑布三道清泉",
+          "hints": "登临悬空清水舞台，俯瞰古都红叶漫山，在千年木构的榫卯间读懂东方建筑神韵。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-001-1",
+              "title": "悬造式木构主殿",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-001-2",
+              "title": "地主神社恋爱占卜及音羽瀑布三道清泉",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-002",
+          "title": "金阁寺",
+          "domain": "synesthesia",
+          "description": "贴满金箔的舍利殿、镜湖池枯山水庭院及白蛇塚传说",
+          "hints": "金光倒映湖心，禅意凝结枯山水，这不仅是建筑，更是具象化的浮世绘梦境。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-002-1",
+              "title": "贴满金箔的舍利殿",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-002-2",
+              "title": "镜湖池枯山水庭院及白蛇塚传说",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-003",
+          "title": "银阁寺",
+          "domain": "synesthesia",
+          "description": "银白阁楼主堂、苔藓覆盖的枯山水庭院及「银阁」向月台特殊设计",
+          "hints": "在月夜仰望银白阁楼，与金阁寺形成华丽与素雅的对仗，感受禅意庭院之美。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-003-1",
+              "title": "银白阁楼主堂",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-003-2",
+              "title": "苔藓覆盖的枯山水庭院及「银阁」向月台特殊设计",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-004",
+          "title": "伏见稻荷大社",
+          "domain": "sculpture",
+          "description": "千本鸟居红色回廊、狐狸石雕守护神及奥之院秘境徒步至熊鹰峰",
+          "hints": "穿梭于万座朱红鸟居之下，光影斑驳如时光隧道，每一步都是对神明的虔诚礼赞。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-004-1",
+              "title": "千本鸟居红色回廊",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-004-2",
+              "title": "狐狸石雕守护神及奥之院秘境徒步至熊鹰峰",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-005",
+          "title": "二条城",
+          "domain": "painting",
+          "description": "桃山时代狩野派障壁画、鹂鸣地板机关设计及本丸御殿建筑群",
+          "hints": "踏上会唱歌的地板，仰望奢华障壁画，在将军府邸的奢华与戒备中回望战国风云。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-005-1",
+              "title": "桃山时代狩野派障壁画",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-005-2",
+              "title": "鹂鸣地板机关设计及本丸御殿建筑群",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-006",
+          "title": "岚山竹林",
+          "domain": "sculpture",
+          "description": "天龙寺曹源池庭院、渡月桥古典倒影及《源氏物语》主题文学馆",
+          "hints": "漫步幽篁古径，竹影婆娑如诗行，在风过林梢的沙沙声中，与紫式部进行跨时空对话。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-006-1",
+              "title": "天龙寺曹源池庭院",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-006-2",
+              "title": "渡月桥古典倒影及《源氏物语》主题文学馆",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-007",
+          "title": "南禅寺",
+          "domain": "synesthesia",
+          "description": "水路阁罗马拱门设计、疏水道枯山水及正宗汤豆腐料理",
+          "hints": "在古老禅寺中品尝京豆腐料理，罗马式水桥与日式庭院的碰撞令人惊艳。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-007-1",
+              "title": "水路阁罗马拱门设计",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-007-2",
+              "title": "疏水道枯山水及正宗汤豆腐料理",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-008",
+          "title": "祇园",
+          "domain": "synesthesia",
+          "description": "花见小路艺伎身影、祇园甲部歌舞练场艺能表演及传统甜品店",
+          "hints": "在石板路上等待艺伎身影，在昏黄灯笼下聆听三味线的低吟浅唱。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-008-1",
+              "title": "花见小路艺伎身影",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-008-2",
+              "title": "祇园甲部歌舞练场艺能表演及传统甜品店",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-009",
+          "title": "三十三间堂",
+          "domain": "painting",
+          "description": "1001尊观音像千手观音本尊、莲华王院本堂及飞云阁",
+          "hints": "被千尊观音像环绕，在肃穆的千手之眼中寻找内心的宁静与震撼。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-009-1",
+              "title": "1001尊观音像千手观音本尊",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-009-2",
+              "title": "莲华王院本堂及飞云阁",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-010",
+          "title": "龙安寺",
+          "domain": "synesthesia",
+          "description": "枯山水石庭经典之作、S型油灯及方丈庭园石组布局",
+          "hints": "面对15块岩石的枯山水，试着从任一角度数出14块，体会禅宗的深远意涵。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-010-1",
+              "title": "枯山水石庭经典之作",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-010-2",
+              "title": "S型油灯及方丈庭园石组布局",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-011",
+          "title": "京都国立博物馆",
+          "domain": "painting",
+          "description": "平安时代佛画、伊藤若冲《鸟兽花木图》及茶道文化特展",
+          "hints": "在明治洋风建筑中追溯日本艺术源流，从佛画到茶道，一部浓缩的日本美学历程。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-011-1",
+              "title": "平安时代佛画",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-011-2",
+              "title": "伊藤若冲《鸟兽花木图》及茶道文化特展",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-012",
+          "title": "东映太秦映画村",
+          "domain": "film",
+          "description": "忍者主题鬼屋、时代剧拍摄体验、迷宫及忍者秀表演",
+          "hints": "走进日本电影片场，圆一个武侠梦，看忍者飞檐走壁，品江户时代剧。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-012-1",
+              "title": "忍者主题鬼屋",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-012-2",
+              "title": "时代剧拍摄体验",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-012-3",
+              "title": "迷宫及忍者秀表演",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-013",
+          "title": "仁和寺",
+          "domain": "synesthesia",
+          "description": "御室御所皇室遗迹、二王门将石狮子及京都最迟盛开的樱花",
+          "hints": "在皇家寺庙中静坐赏樱，这里的晚开樱花被称为「御室樱」，错过花期也能欣赏。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-013-1",
+              "title": "御室御所皇室遗迹",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-013-2",
+              "title": "二王门将石狮子及京都最迟盛开的樱花",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "kyoto-014",
+          "title": "渡月桥",
+          "domain": "sculpture",
+          "description": "岚山地标桥梁、龟山公园展望点及秋日红叶倒影",
+          "hints": "在渡月桥上拍摄红叶与桥身的经典构图，秋日傍晚的岚峡风光最为动人。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "kyoto-014-1",
+              "title": "岚山地标桥梁",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "kyoto-014-2",
+              "title": "龟山公园展望点及秋日红叶倒影",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osaka",
+      "name": "大阪",
+      "description": "活力之都，流行文化与美食天堂的完美结合，霓虹灯下的市井烟火",
+      "items": [
+        {
+          "id": "osaka-001",
+          "title": "大阪烧村",
+          "domain": "flavor",
+          "description": "道顿堀现做御好烧、明石烧流心体验及Boteju正宗大阪烧",
+          "hints": "在铁板的滋滋声中亲手翻炒面糊，一口爆汁的不仅是美食，更是大阪人的热情与烟火气。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "osaka-001-1",
+              "title": "道顿堀现做御好烧",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-001-2",
+              "title": "明石烧流心体验及Boteju正宗大阪烧",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "osaka-002",
+          "title": "道顿堀",
+          "domain": "synesthesia",
+          "description": "格力高奔跑人广告牌、章鱼烧本家、通天阁方向夜景",
+          "hints": "沿河漫步霓虹招牌丛林，在大阪的心斋桥品尝串炸与章鱼烧的极致诱惑。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "osaka-002-1",
+              "title": "格力高奔跑人广告牌",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-002-2",
+              "title": "章鱼烧本家",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-002-3",
+              "title": "通天阁方向夜景",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "osaka-003",
+          "title": "大阪城公园",
+          "domain": "synesthesia",
+          "description": "丰臣秀吉安土桃山式天守阁、护城河石垣及天守阁登顶绝景",
+          "hints": "登上金色天守阁俯瞰大阪城，在护城河边拍摄天守阁与倒影的经典画面。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "osaka-003-1",
+              "title": "丰臣秀吉安土桃山式天守阁",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-003-2",
+              "title": "护城河石垣及天守阁登顶绝景",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "osaka-004",
+          "title": "梅田蓝天大厦",
+          "domain": "synesthesia",
+          "description": "空中庭园展望台40楼、环形屋顶神社及梦幻散步道",
+          "hints": "在大阪夜景第一观景点，感受被霓虹包围的浪漫，环形屋顶的夕阳堪称绝景。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "osaka-004-1",
+              "title": "空中庭园展望台40楼",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-004-2",
+              "title": "环形屋顶神社及梦幻散步道",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "osaka-005",
+          "title": "通天阁",
+          "domain": "synesthesia",
+          "description": "明治建筑风格铁塔、幸运北极星雕塑及道顿堀与天王寺方向夜景",
+          "hints": "模仿巴黎埃菲尔铁塔建造的复古铁塔，在顶部俯瞰大阪南部街景，感受江户到明治的时空穿越。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "osaka-005-1",
+              "title": "明治建筑风格铁塔",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-005-2",
+              "title": "幸运北极星雕塑及道顿堀与天王寺方向夜景",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "osaka-006",
+          "title": "大阪环球影城",
+          "domain": "film",
+          "description": "哈利波特魔法世界、好莱坞美梦乘车、超级任天堂世界及小小兵园区",
+          "hints": "在哈利波特的霍格沃茨城堡前挥舞魔法棒，与马里奥一起收集金币，感受电影梦工厂的魅力。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "osaka-006-1",
+              "title": "哈利波特魔法世界",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-006-2",
+              "title": "好莱坞美梦乘车",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-006-3",
+              "title": "超级任天堂世界及小小兵园区",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "osaka-007",
+          "title": "黑门市场",
+          "domain": "synesthesia",
+          "description": "新鲜海产摊位、和牛烤肉、河豚刺身及关西特产寿司",
+          "hints": "在大坂的「市民厨房」大快朵颐，新鲜度和价格都比东京筑地更亲民。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "osaka-007-1",
+              "title": "新鲜海产摊位",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-007-2",
+              "title": "和牛烤肉",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-007-3",
+              "title": "河豚刺身及关西特产寿司",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "osaka-008",
+          "title": "天保山摩天轮",
+          "domain": "synesthesia",
+          "description": "直径112米世界最大级摩天轮、海游馆入场及港边夜景",
+          "hints": "乘坐透明车厢缓缓升空，俯瞰大阪港与对岸USJ的璀璨夜色。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "osaka-008-1",
+              "title": "直径112米世界最大级摩天轮",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-008-2",
+              "title": "海游馆入场及港边夜景",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "osaka-009",
+          "title": "大阪京瓷巨蛋",
+          "domain": "sports",
+          "description": "欧力士野牛队主场、演唱会场馆及谢幕夺金应援体验",
+          "hints": "加入日本职棒的热血应援团，在椭圆形巨蛋中感受大阪人的热闘与激情。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "osaka-009-1",
+              "title": "欧力士野牛队主场",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "osaka-009-2",
+              "title": "演唱会场馆及谢幕夺金应援体验",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nara",
+      "name": "奈良",
+      "description": "古都奈良，飞鸟时代的佛教艺术瑰宝，与自然和谐共生的梅花鹿乐园",
+      "items": [
+        {
+          "id": "nara-001",
+          "title": "东大寺",
+          "domain": "synesthesia",
+          "description": "世界最大级木造建筑大佛殿、卢舍那佛像及前院的朱红色大灯笼",
+          "hints": "在世界上最大的木造建筑中仰望卢舍那大佛，感受唐代建筑风格的雄伟与震撼。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "nara-001-1",
+              "title": "世界最大级木造建筑大佛殿",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "nara-001-2",
+              "title": "卢舍那佛像及前院的朱红色大灯笼",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "nara-002",
+          "title": "春日大社",
+          "domain": "synesthesia",
+          "description": "万灯笼参道、常灯灯铜灯笼及约2000株的原始森林",
+          "hints": "穿过万座石灯笼上山的参道，在原始林间寻找神明的足迹，与小鹿共舞。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "nara-002-1",
+              "title": "万灯笼参道",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "nara-002-2",
+              "title": "常灯灯铜灯笼及约2000株的原始森林",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "nara-003",
+          "title": "奈良公园",
+          "domain": "sculpture",
+          "description": "约1200头野生鹿群、浮见堂欧式池塘及约1700年历史的浮图",
+          "hints": "在鹿群中喂仙贝，看它们点头致谢，在大佛池畔拍摄五重塔倒影。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "nara-003-1",
+              "title": "约1200头野生鹿群",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "nara-003-2",
+              "title": "浮见堂欧式池塘及约1700年历史的浮图",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "nara-004",
+          "title": "若草山",
+          "domain": "sculpture",
+          "description": "340米低山全景展望点、烧山活动及名古屋方向夜景",
+          "hints": "在山顶的草地上等待日落，俯瞰奈良全景与夕阳下的城市灯火渐次亮起。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "nara-004-1",
+              "title": "340米低山全景展望点",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "nara-004-2",
+              "title": "烧山活动及名古屋方向夜景",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "nara-005",
+          "title": "兴福寺",
+          "domain": "sculpture",
+          "description": "五重塔国宝建筑、阿修罗像鎌倉雕塑及猿泽池经典摄影角度",
+          "hints": "在五重塔与中国盛唐风格建筑间，寻找中日文化交流的历史印记。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "nara-005-1",
+              "title": "五重塔国宝建筑",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "nara-005-2",
+              "title": "阿修罗像鎌倉雕塑及猿泽池经典摄影角度",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "nara-006",
+          "title": "奈良国立博物馆",
+          "domain": "painting",
+          "description": "佛像馆青不空菩萨像、东大寺正仓院宝物展及佛教艺术专门展示",
+          "hints": "在日本最重要的佛教艺术博物馆中，系统了解佛教文化在日本的传播与演变。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "nara-006-1",
+              "title": "佛像馆青不空菩萨像",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "nara-006-2",
+              "title": "东大寺正仓院宝物展及佛教艺术专门展示",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "nara-007",
+          "title": "唐招提寺",
+          "domain": "synesthesia",
+          "description": "鉴真和尚创建、金堂讲堂建筑群及日本天平时代最大最美伽蓝",
+          "hints": "在鉴真和尚历经十年才建成的寺院中，体会「山川异域，风月同天」的深远意义。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "nara-007-1",
+              "title": "鉴真和尚创建",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "nara-007-2",
+              "title": "金堂讲堂建筑群及日本天平时代最大最美伽蓝",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "nara-008",
+          "title": "药师寺",
+          "domain": "painting",
+          "description": "东塔国宝建筑、大日如来像及《玄奘三藏绘》重要文化财",
+          "hints": "在药师寺的东塔下静坐，感受与唐招提寺的姊妹关系，聆听大唐西域记的故事。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "nara-008-1",
+              "title": "东塔国宝建筑",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "nara-008-2",
+              "title": "大日如来像及《玄奘三藏绘》重要文化财",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "nara-009",
+          "title": "平城宫迹",
+          "domain": "synesthesia",
+          "description": "朱雀门复兴建筑、朝堂院遗址及出土文物展示馆",
+          "hints": "在平城宫的朱雀门前想象1300年前日本首都的辉煌，感受中国长安城的影子。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "nara-009-1",
+              "title": "朱雀门复兴建筑",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "nara-009-2",
+              "title": "朝堂院遗址及出土文物展示馆",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hokkaido",
+      "name": "北海道",
+      "description": "日本最北端的自然天堂，四季分明的田园诗画与都市浪漫的完美结合",
+      "items": [
+        {
+          "id": "hokkaido-001",
+          "title": "札幌大通公园",
+          "domain": "synesthesia",
+          "description": "都市绿洲CBD、札幌电视塔全景拍摄点及四季彩灯活动",
+          "hints": "在北海道的香榭丽舍漫步，从电视塔顶拍摄札幌都市与远山的完美构图。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-001-1",
+              "title": "都市绿洲CBD",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-001-2",
+              "title": "札幌电视塔全景拍摄点及四季彩灯活动",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-002",
+          "title": "札幌艺术之森",
+          "domain": "painting",
+          "description": "野外美术馆62件雕塑作品、玻璃工坊体验及森林创意工作坊",
+          "hints": "在绿意包围的森林美术馆中，与现代雕塑对话，体验手作玻璃的流光溢彩。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-002-1",
+              "title": "野外美术馆62件雕塑作品",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-002-2",
+              "title": "玻璃工坊体验及森林创意工作坊",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-003",
+          "title": "白色恋人公园",
+          "domain": "synesthesia",
+          "description": "英式花园与玫瑰温室、巧克力工厂参观通道及亲手制作白色恋人饼干",
+          "hints": "走进童话般的巧克力城堡，在英式庄园中品尝白色恋人，实现巧克力自由。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-003-1",
+              "title": "英式花园与玫瑰温室",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-003-2",
+              "title": "巧克力工厂参观通道及亲手制作白色恋人饼干",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-004",
+          "title": "北海道大学",
+          "domain": "synesthesia",
+          "description": "银杏林荫道、白杨林空中走廊及札幌农学校历史建筑群",
+          "hints": "在北海道第一学府的林荫道中骑行，感受学生时代的青春气息与学术氛围。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-004-1",
+              "title": "银杏林荫道",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-004-2",
+              "title": "白杨林空中走廊及札幌农学校历史建筑群",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-005",
+          "title": "藻岩山夜景",
+          "domain": "sculpture",
+          "description": "Moiwa山森林缆车、日本新三大夜景之一及山顶幸福钟",
+          "hints": "搭乘缆车登顶藻岩山，在象征幸福的钟声与万家灯火中感受札幌的浪漫夜色。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-005-1",
+              "title": "Moiwa山森林缆车",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-005-2",
+              "title": "日本新三大夜景之一及山顶幸福钟",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-006",
+          "title": "富良野薰衣草田",
+          "domain": "sculpture",
+          "description": "薰衣草紫竹花园、富田农场彩虹花带及独栋别墅农舍体验",
+          "hints": "在紫色的薰衣草海洋中拍摄田园大片，亲手采摘薰衣草制作香包，将北海道的芬芳带回家。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-006-1",
+              "title": "薰衣草紫竹花园",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-006-2",
+              "title": "富田农场彩虹花带及独栋别墅农舍体验",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-007",
+          "title": "美瑛青池",
+          "domain": "sculpture",
+          "description": "Macbook壁纸取景地、钙化枯木倒影及白桦林防风林道",
+          "hints": "在青碧池水前寻找那抹标志性的蓝，捕捉Macbook桌面中的真实美景。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-007-1",
+              "title": "Macbook壁纸取景地",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-007-2",
+              "title": "钙化枯木倒影及白桦林防风林道",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-008",
+          "title": "小樽运河",
+          "domain": "synesthesia",
+          "description": "大正硝子玻璃工坊、堺町通音乐盒堂及运河沿岸仓库群夜景",
+          "hints": "漫步大正时代仓库街，在煤油灯下倾听八音盒的浪漫旋律，品味小樽的复古情怀。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-008-1",
+              "title": "大正硝子玻璃工坊",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-008-2",
+              "title": "堺町通音乐盒堂及运河沿岸仓库群夜景",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-009",
+          "title": "登别地狱谷",
+          "domain": "synesthesia",
+          "description": "登别温泉源头，鬼火之路夜晚幻想及大汤沼天然足汤",
+          "hints": "在硫磺山的阵阵白烟中穿行，夜幕降临后走鬼火之路，感受地狱名不虚传的诡谲之美。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-009-1",
+              "title": "登别温泉源头，鬼火之路夜晚幻想及大汤沼天然足汤",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-010",
+          "title": "洞爷湖",
+          "domain": "sculpture",
+          "description": "昭和新山烧山走向、湖上游览船及洞爷湖温泉街",
+          "hints": "在湖心眺望昭和新山的火山遗迹，乘船游览约30座的湖心岛屿，夜晚烟火璀璨。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-010-1",
+              "title": "昭和新山烧山走向",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-010-2",
+              "title": "湖上游览船及洞爷湖温泉街",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-011",
+          "title": "札幌啤酒园",
+          "domain": "synesthesia",
+          "description": "开拓使喇嘛灭建筑、札幌啤酒试饮及成吉思汗烤肉",
+          "hints": "在面包工厂改造的啤酒园中，畅饮新鲜直送的扎啤，大口吃下北海道的代表美食成吉思汗烤肉。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-011-1",
+              "title": "开拓使喇嘛灭建筑",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-011-2",
+              "title": "札幌啤酒试饮及成吉思汗烤肉",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hokkaido-012",
+          "title": "狸小路商店街",
+          "domain": "synesthesia",
+          "description": "拱廊商店街全长约900米、药妆店激安战场及拉面横町",
+          "hints": "在北海道最热闹的拱廊商街边走边吃，从药妆到拉面，一站式购齐札幌的精华。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hokkaido-012-1",
+              "title": "拱廊商店街全长约900米",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hokkaido-012-2",
+              "title": "药妆店激安战场及拉面横町",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fuji",
+      "name": "富士山区域",
+      "description": "日本的象征富士山所在地，火山奇观与艺术温泉的度假胜地",
+      "items": [
+        {
+          "id": "fuji-001",
+          "title": "河口湖",
+          "domain": "sculpture",
+          "description": "湖面倒影富士山经典机位、河口湖大桥摄影点及周游自行车道",
+          "hints": "在天气晴好时捕捉富士山与湖面的完美倒影，骑行环湖感受湖光山色的宁静与壮美。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-001-1",
+              "title": "湖面倒影富士山经典机位",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-001-2",
+              "title": "河口湖大桥摄影点及周游自行车道",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-002",
+          "title": "河口湖美术馆",
+          "domain": "painting",
+          "description": "北齐场所作红富士、河口湖八音盒馆及庭院红叶回廊",
+          "hints": "在湖边的美术馆中，透过落地窗边赏富士山边品咖啡，感受艺术与自然的和谐共鸣。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-002-1",
+              "title": "北齐场所作红富士",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-002-2",
+              "title": "河口湖八音盒馆及庭院红叶回廊",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-003",
+          "title": "新仓山浅间公园",
+          "domain": "sculpture",
+          "description": "忠灵塔五重塔红叶鸟居、经典富士山拍摄角度及412级台阶登顶",
+          "hints": "攀登至忠灵塔前，以五重塔为前景拍摄富士山，这个角度被称为全世界最亲近富士山的拍摄点。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-003-1",
+              "title": "忠灵塔五重塔红叶鸟居",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-003-2",
+              "title": "经典富士山拍摄角度及412级台阶登顶",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-004",
+          "title": "忍野八海",
+          "domain": "sculpture",
+          "description": "忍野村8处清泉、池底富士山水涌出及传统茅草屋村落",
+          "hints": "在忍野的八个泉池边静观，池水清澈见底，倒映着远处的富士山，宛如人间仙境。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-004-1",
+              "title": "忍野村8处清泉",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-004-2",
+              "title": "池底富士山水涌出及传统茅草屋村落",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-005",
+          "title": "御殿场Premium Outlets",
+          "domain": "synesthesia",
+          "description": "约210家品牌店铺、日本最大级Outlets及眺望富士山最佳位置",
+          "hints": "在血拚购物的同时，远眺富士山这个绝佳背景，边购物边赏富士山的独特体验。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-005-1",
+              "title": "约210家品牌店铺",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-005-2",
+              "title": "日本最大级Outlets及眺望富士山最佳位置",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-006",
+          "title": "平和公园",
+          "domain": "sculpture",
+          "description": "释迦牟尼塔白色灵塔、喷泉公园及园内种植各地赠送的樱花树",
+          "hints": "在释迦牟尼塔前双手合十，为世界和平祈愿，同时远眺富士山感受宁静与力量。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-006-1",
+              "title": "释迦牟尼塔白色灵塔",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-006-2",
+              "title": "喷泉公园及园内种植各地赠送的樱花树",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-007",
+          "title": "大涌谷",
+          "domain": "synesthesia",
+          "description": "硫磺山谷地热奇景、黑蛋传说及大涌谷站观光索道",
+          "hints": "搭乘索道穿越硫磺烟岚，品尝据说吃一颗延长7年寿命的黑蛋，感受地球的生命力。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-007-1",
+              "title": "硫磺山谷地热奇景",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-007-2",
+              "title": "黑蛋传说及大涌谷站观光索道",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-008",
+          "title": "芦之湖",
+          "domain": "sculpture",
+          "description": "海盗游览船、湖尻王子酒店驹之岳缆车及驹之岳山道红叶",
+          "hints": "乘坐海盗船造型游船，在芦之湖上以不同的角度欣赏富士山与红色鸟居的经典景观。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-008-1",
+              "title": "海盗游览船",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-008-2",
+              "title": "湖尻王子酒店驹之岳缆车及驹之岳山道红叶",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-009",
+          "title": "雕刻之森美术馆",
+          "domain": "painting",
+          "description": "野外展示毕加索馆、网坛双六甲汤及富士山为背景的雕刻作品",
+          "hints": "在以富士山为背景的野外美术馆中，与大型雕塑作品互动，感受艺术与自然的融合。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-009-1",
+              "title": "野外展示毕加索馆",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-009-2",
+              "title": "网坛双六甲汤及富士山为背景的雕刻作品",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-010",
+          "title": "忍野忍者主题村",
+          "domain": "synesthesia",
+          "description": "忍者屋敷暗道机关、甲胄试穿体验及手里剑投掷练习",
+          "hints": "走进忍者道场，穿越机关重重的忍者屋敷，学习传说中伊贺流忍者的神秘技艺。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-010-1",
+              "title": "忍者屋敷暗道机关",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-010-2",
+              "title": "甲胄试穿体验及手里剑投掷练习",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-011",
+          "title": "富士山五合目",
+          "domain": "synesthesia",
+          "description": "云层上的登山基地、富士山吉田路线起点及邮局限定印章",
+          "hints": "乘坐巴士直达云层之上，在五合目感受登山的氛围，给未来的自己寄一张富士山限定明信片。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-011-1",
+              "title": "云层上的登山基地",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-011-2",
+              "title": "富士山吉田路线起点及邮局限定印章",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "fuji-012",
+          "title": "本栖湖",
+          "domain": "sculpture",
+          "description": "千元日元纸币富士山图案拍摄地、玄岳缆车及土肥山登山入口",
+          "hints": "在特定的季节和天气，站在本栖湖畔，以与千元纸币相同角度拍摄富士山倒影，趣味与美景并存。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "fuji-012-1",
+              "title": "千元日元纸币富士山图案拍摄地",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "fuji-012-2",
+              "title": "玄岳缆车及土肥山登山入口",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

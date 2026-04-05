@@ -1,0 +1,2899 @@
+{
+  "treasureMap": {
+    "id": "netherlands-art-tour",
+    "name": "荷兰艺术之旅",
+    "description": "探索荷兰四大城市的艺术瑰宝，从阿姆斯特丹的黄金时代到鹿特丹的现代建筑，每一座城市都是一部待续的艺术篇章。",
+    "creator": "ArtStarMap",
+    "version": "1.0.0",
+    "type": "geographic"
+  },
+  "chapters": [
+    {
+      "id": "amsterdam",
+      "name": "阿姆斯特丹",
+      "description": "荷兰首都，17世纪黄金时代的艺术中心，梵高与伦勃朗的故乡",
+      "items": [
+        {
+          "id": "amsterdam-001",
+          "title": "荷兰国立博物馆",
+          "domain": "painting",
+          "description": "伦勃朗《夜巡》、维米尔《倒牛奶的女仆》",
+          "hints": "走进黄金时代艺术巅峰，亲眼见证伦勃朗与维米尔的传世杰作。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-001-1",
+              "title": "伦勃朗《夜巡》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-001-2",
+              "title": "维米尔《倒牛奶的女仆》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-002",
+          "title": "梵高博物馆",
+          "domain": "painting",
+          "description": "梵高《向日葵》《杏花》",
+          "hints": "沉浸在梵高炽热笔触中，感受向日葵的灿烂与杏花的静谧之美。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-002-1",
+              "title": "梵高《向日葵》《杏花》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-003",
+          "title": "阿姆斯特丹市立博物馆",
+          "domain": "painting",
+          "description": "蒙德里安《红蓝黄构图》系列、《胜利之舞》草图及现代设计原稿",
+          "hints": "探索抽象艺术的起源，从蒙德里安的几何世界读懂现代美学密码。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-003-1",
+              "title": "蒙德里安《红蓝黄构图》系列",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-003-2",
+              "title": "《胜利之舞》草图及现代设计原稿",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-004",
+          "title": "运河带",
+          "domain": "synesthesia",
+          "description": "17世纪绅士运河（Herengracht）、皇帝运河（Keizersgracht）、王子运河（Prinsengracht）沿岸历史建筑群",
+          "hints": "漫步世界遗产水道，穿越巴洛克式山墙与黄金时代的贵族宅邸。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-004-1",
+              "title": "17世纪绅士运河（Herengracht）",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-004-2",
+              "title": "皇帝运河（Keizersgracht）",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-004-3",
+              "title": "王子运河（Prinsengracht）沿岸历史建筑群",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-005",
+          "title": "NEMO科学博物馆",
+          "domain": "synesthesia",
+          "description": "伦佐·皮亚诺设计的红砖拱顶建筑，顶层绿色屋顶可步行参观",
+          "hints": "登上绿色屋顶，俯瞰城市天际线，在互动实验中点燃科学热情。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-005-1",
+              "title": "伦佐·皮亚诺设计的红砖拱顶建筑，顶层绿色屋顶可步行参观",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-006",
+          "title": "艾蓉堡",
+          "domain": "dance",
+          "description": "未来主义建筑外观，荷兰国家芭蕾舞团《天鹅湖》《吉赛尔》定期演出",
+          "hints": "在流线型未来建筑中，邂逅古典芭蕾的优雅与力量。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-006-1",
+              "title": "未来主义建筑外观，荷兰国家芭蕾舞团《天鹅湖》《吉赛尔》定期演出",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-007",
+          "title": "梵高森林雕塑公园",
+          "domain": "sculpture",
+          "description": "亨利·摩尔《斜倚人像》、罗丹《思想者》《地狱之门》等户外雕塑作品",
+          "hints": "在森林秘境中与大师雕塑对话，感受自然与艺术的和谐共鸣。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-007-1",
+              "title": "亨利·摩尔《斜倚人像》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-007-2",
+              "title": "罗丹《思想者》《地狱之门》等户外雕塑作品",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-008",
+          "title": "阿姆斯特丹皇家音乐厅",
+          "domain": "music",
+          "description": "皇家音乐厅管弦乐团每周音乐会，演奏马勒、勃拉姆斯等经典交响曲",
+          "hints": "聆听世界级交响乐盛宴，让马勒的旋律在百年殿堂中回荡。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-008-1",
+              "title": "皇家音乐厅管弦乐团每周音乐会，演奏马勒",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-008-2",
+              "title": "勃拉姆斯等经典交响曲",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-009",
+          "title": "Bimhuis",
+          "domain": "music",
+          "description": "每晚现场爵士演出，如Ben van Gelder Quartet、Uri Caine Trio等知名组合",
+          "hints": "沉醉于即兴节奏之夜，在阿姆斯特丹最酷的爵士空间感受灵魂律动。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-009-1",
+              "title": "每晚现场爵士演出，如Ben van Gelder Quartet",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-009-2",
+              "title": "Uri Caine Trio等知名组合",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-010",
+          "title": "Eye电影博物馆",
+          "domain": "film",
+          "description": "建筑为白色流线型雕塑外观，常设展《电影之梦：从默片到数字时代》",
+          "hints": "穿越光影长河，从默片时代走进数字影像的未来世界。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-010-1",
+              "title": "建筑为白色流线型雕塑外观，常设展《电影之梦：从默片到数字时代》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-011",
+          "title": "阿姆斯特丹公共图书馆",
+          "domain": "literature",
+          "description": "中央图书馆顶楼设有公共观景台与阅读区，可俯瞰城市全景",
+          "hints": "在城市之巅静心阅读，将阿姆斯特丹的风景尽收眼底。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-011-1",
+              "title": "中央图书馆顶楼设有公共观景台与阅读区，可俯瞰城市全景",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-012",
+          "title": "莱特斯博物馆",
+          "domain": "literature",
+          "description": "展出15世纪古版书、荷兰黄金时代手稿及出版印刷工具",
+          "hints": "触摸文字的历史脉搏，见证古腾堡印刷术下的知识革命。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-012-1",
+              "title": "展出15世纪古版书",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-012-2",
+              "title": "荷兰黄金时代手稿及出版印刷工具",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-013",
+          "title": "德布拉ak剧院",
+          "domain": "synesthesia",
+          "description": "实验剧团Dogtroep、Hotel Modern等在此首演先锋戏剧作品",
+          "hints": "走进前卫剧场，体验打破边界的实验性舞台艺术冲击。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-013-1",
+              "title": "实验剧团Dogtroep",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-013-2",
+              "title": "Hotel Modern等在此首演先锋戏剧作品",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-014",
+          "title": "Foodhallen",
+          "domain": "flavor",
+          "description": "室内美食市集，推荐摊位：Bread & Butter（荷兰煎饼）、Holland Meatballs（炸肉丸）、Smash（炒牛肉）",
+          "hints": "味蕾漫游荷兰街头，从煎饼到炸肉丸，一口吃遍市集烟火气。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-014-1",
+              "title": "室内美食市集，推荐摊位：Bread & Butter（荷兰煎饼）",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-014-2",
+              "title": "Holland Meatballs（炸肉丸）",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-014-3",
+              "title": "Smash（炒牛肉）",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-015",
+          "title": "De Kas",
+          "domain": "flavor",
+          "description": "温室餐厅每日供应自种蔬菜制作的三道式套餐，菜单随季节更换",
+          "hints": "在阳光温室中品味当季鲜蔬，享受从田地直达餐桌的自然之味。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-015-1",
+              "title": "温室餐厅每日供应自种蔬菜制作的三道式套餐，菜单随季节更换",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-016",
+          "title": "约翰·克鲁伊夫竞技场",
+          "domain": "sports",
+          "description": "阿贾克斯足球俱乐部主场，可参观更衣室、荣誉展厅与球场草坪",
+          "hints": "踏入橙色圣地，感受荷兰足球心脏的澎湃脉动。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-016-1",
+              "title": "阿贾克斯足球俱乐部主场，可参观更衣室",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-016-2",
+              "title": "荣誉展厅与球场草坪",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-017",
+          "title": "荷兰国家博物馆",
+          "domain": "painting",
+          "description": "伦勃朗《夜巡》、维米尔《倒牛奶的女仆》及荷兰黄金时代完整绘画收藏",
+          "hints": "走进黄金时代艺术巅峰，亲眼见证伦勃朗与维米尔的传世杰作。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-017-1",
+              "title": "伦勃朗《夜巡》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-017-2",
+              "title": "维米尔《倒牛奶的女仆》及荷兰黄金时代完整绘画收藏",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-018",
+          "title": "梵高美术馆",
+          "domain": "painting",
+          "description": "《向日葵》《杏花》真迹、梵高素描原稿及《星夜》草图",
+          "hints": "沉浸在梵高炽热笔触中，感受向日葵的灿烂与杏花的静谧之美。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-018-1",
+              "title": "《向日葵》《杏花》真迹",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-018-2",
+              "title": "梵高素描原稿及《星夜》草图",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-019",
+          "title": "Moco博物馆",
+          "domain": "painting",
+          "description": "Banksy作品收藏、街头艺术专题展及沉浸式互动装置",
+          "hints": "在当代艺术的叛逆空间中，与Banksy的讽刺艺术不期而遇。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-019-1",
+              "title": "Banksy作品收藏",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-019-2",
+              "title": "街头艺术专题展及沉浸式互动装置",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-020",
+          "title": "阿姆斯特丹音乐厅",
+          "domain": "music",
+          "description": "皇家音乐厅管弦乐团演出、《阿姆斯特丹效应》建筑导览",
+          "hints": "在世界级的声学圣殿中，聆听马勒与勃拉姆斯的永恒对话。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-020-1",
+              "title": "皇家音乐厅管弦乐团演出",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-020-2",
+              "title": "《阿姆斯特丹效应》建筑导览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-021",
+          "title": "阿尔蒂斯动物园",
+          "domain": "synesthesia",
+          "description": "城市中心动物园、密克罗尼西亚鸟舍及热带雨林温室",
+          "hints": "在都市绿洲中近距离接触企鹅与长颈鹿，体验人与自然的和谐共处。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-021-1",
+              "title": "城市中心动物园",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-021-2",
+              "title": "密克罗尼西亚鸟舍及热带雨林温室",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-022",
+          "title": "荷兰战争文献中心",
+          "domain": "synesthesia",
+          "description": "二战实物档案、证人证言视频及安妮之家相关资料",
+          "hints": "触摸历史的伤痕，在文献与证言中铭记和平的珍贵。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-022-1",
+              "title": "二战实物档案",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-022-2",
+              "title": "证人证言视频及安妮之家相关资料",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-023",
+          "title": "冯德尔公园",
+          "domain": "sculpture",
+          "description": "城市绿肺、市民活动中心及秋季落叶金色隧道",
+          "hints": "在冯德尔的金色落叶中骑行，感受阿姆斯特丹市民的日常生活。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-023-1",
+              "title": "城市绿肺",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-023-2",
+              "title": "市民活动中心及秋季落叶金色隧道",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-024",
+          "title": "荷兰电影研究所",
+          "domain": "film",
+          "description": "荷兰电影史常设展、经典默片放映及电影制作工作坊",
+          "hints": "探索荷兰电影百年史，从默片时代走进数字影像的未来。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-024-1",
+              "title": "荷兰电影史常设展",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-024-2",
+              "title": "经典默片放映及电影制作工作坊",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-025",
+          "title": "波士夫人体验",
+          "domain": "flavor",
+          "description": "荷兰松饼制作、传统干酪品尝及渔市场早市体验",
+          "hints": "在渔市场的烟火气中，品尝正宗荷兰松饼与陈年奶酪的绝妙组合。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-025-1",
+              "title": "荷兰松饼制作",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-025-2",
+              "title": "传统干酪品尝及渔市场早市体验",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-026",
+          "title": "阿姆斯特丹植物园",
+          "domain": "synesthesia",
+          "description": "荷式温室历史建筑、稀有植物收藏及维多利亚时期花园",
+          "hints": "在300年历史的温室中，探索来自世界各地的珍稀植物与殖民贸易史。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-026-1",
+              "title": "荷式温室历史建筑",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-026-2",
+              "title": "稀有植物收藏及维多利亚时期花园",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-027",
+          "title": "莱德斯图书馆",
+          "domain": "synesthesia",
+          "description": "教堂改建图书馆、穹顶阅读大厅及中世纪地下书库",
+          "hints": "在神圣的穹顶下阅读，让书香与神圣的建筑共鸣。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-027-1",
+              "title": "教堂改建图书馆",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-027-2",
+              "title": "穹顶阅读大厅及中世纪地下书库",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "amsterdam-028",
+          "title": "阿姆斯特丹灯塔",
+          "domain": "synesthesia",
+          "description": "工业风观景塔、屋顶全景观景台及城市历史展览",
+          "hints": "登上灯塔之巅，以水手视角俯瞰整座城市的运河与屋顶。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "amsterdam-028-1",
+              "title": "工业风观景塔",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "amsterdam-028-2",
+              "title": "屋顶全景观景台及城市历史展览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hague",
+      "name": "海牙",
+      "description": "荷兰政府所在地，国际法院与和平宫的所在城市",
+      "items": [
+        {
+          "id": "hague-001",
+          "title": "莫里茨皇家美术馆",
+          "domain": "painting",
+          "description": "维米尔《戴珍珠耳环的少女》原作陈列于二楼主展厅",
+          "hints": "与“北方的蒙娜丽莎”对视，揭开那抹神秘微笑背后的光影奇迹。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-001-1",
+              "title": "维米尔《戴珍珠耳环的少女》原作陈列于二楼主展厅",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-002",
+          "title": "海牙市立博物馆",
+          "domain": "painting",
+          "description": "收藏40余幅蒙德里安作品，包括《红黄蓝的构成》《百老汇爵士乐》",
+          "hints": "穿越红黄蓝的网格世界，体验蒙德里安如何用几何定义现代美学。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-002-1",
+              "title": "收藏40余幅蒙德里安作品，包括《红黄蓝的构成》《百老汇爵士乐》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-003",
+          "title": "和平宫",
+          "domain": "synesthesia",
+          "description": "新文艺复兴风格建筑，国际法院庭审公众开放日可预约旁听",
+          "hints": "走进世界和平的象征，在庄严殿堂聆听正义之声。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-003-1",
+              "title": "新文艺复兴风格建筑，国际法院庭审公众开放日可预约旁听",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-004",
+          "title": "席凡宁根海滨长廊",
+          "domain": "synesthesia",
+          "description": "木质栈道连接沙滩浴场、Kurhaus酒店及摩天轮，适合骑行与日落散步",
+          "hints": "沿北海海岸骑行，在木栈道尽头迎接一场壮丽的日落。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-004-1",
+              "title": "木质栈道连接沙滩浴场",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-004-2",
+              "title": "Kurhaus酒店及摩天轮，适合骑行与日落散步",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-005",
+          "title": "马德罗丹",
+          "domain": "sculpture",
+          "description": "1:25比例荷兰地标微缩模型，包括阿姆斯特丹王宫、乌得勒支圆顶教堂",
+          "hints": "缩小荷兰于一园之中，一步穿越全国地标奇观。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-005-1",
+              "title": "1:25比例荷兰地标微缩模型，包括阿姆斯特丹王宫",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-005-2",
+              "title": "乌得勒支圆顶教堂",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-006",
+          "title": "海牙雕塑路线",
+          "domain": "sculpture",
+          "description": "罗丹《加莱义民》、亨利·摩尔《斜倚人像》等20余件公共雕塑沿公园路径分布",
+          "hints": "漫步城市绿道，与世界级雕塑在林荫间不期而遇。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-006-1",
+              "title": "罗丹《加莱义民》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-006-2",
+              "title": "亨利·摩尔《斜倚人像》等20余件公共雕塑沿公园路径分布",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-007",
+          "title": "Zuiderstrandtheater",
+          "domain": "music",
+          "description": "沙丘地形掩埋式建筑，举办古典独奏会与现代声学实验演出",
+          "hints": "在沙丘腹地聆听天籁，感受建筑与自然共鸣的声学奇境。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-007-1",
+              "title": "沙丘地形掩埋式建筑，举办古典独奏会与现代声学实验演出",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-008",
+          "title": "Literatuurmuseum",
+          "domain": "literature",
+          "description": "常设互动展《荷兰语的故事》，展示安妮·弗兰克日记原件复制品",
+          "hints": "走进语言的旅程，触摸安妮笔下那段刻骨铭心的历史。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-008-1",
+              "title": "常设互动展《荷兰语的故事》，展示安妮·弗兰克日记原件复制品",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-009",
+          "title": "Filmhuis Den Haag",
+          "domain": "film",
+          "description": "艺术院线放映库布里克回顾展、北欧电影节等主题影展",
+          "hints": "深度影迷的聚集地，在主题影展中探索电影的无限可能。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-009-1",
+              "title": "艺术院线放映库布里克回顾展",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-009-2",
+              "title": "北欧电影节等主题影展",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-010",
+          "title": "NNT（海牙国家剧院）",
+          "domain": "synesthesia",
+          "description": "上演《哈姆雷特》《等待戈多》等经典剧目，提供英语字幕场次",
+          "hints": "在经典舞台上重读莎士比亚，在荒诞中思索存在的意义。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-010-1",
+              "title": "上演《哈姆雷特》《等待戈多》等经典剧目，提供英语字幕场次",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-011",
+          "title": "海牙舞蹈剧院",
+          "domain": "dance",
+          "description": "尤利·基里安编舞《Sinfonietta》《Bella Figura》常年上演",
+          "hints": "感受捷克现代舞的诗意流动，见证肢体语言的极致表达。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-011-1",
+              "title": "尤利·基里安编舞《Sinfonietta》《Bella Figura》常年上演",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-012",
+          "title": "Pescaria",
+          "domain": "flavor",
+          "description": "推荐菜品：生鲱鱼三明治（Haring Broodje）、北海鳕鱼炸鱼排、海鲜拼盘",
+          "hints": "新鲜海味直达餐桌，用一道生鲱鱼开启地道荷兰味觉之旅。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-012-1",
+              "title": "推荐菜品：生鲱鱼三明治（Haring Broodje）",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-012-2",
+              "title": "北海鳕鱼炸鱼排",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-012-3",
+              "title": "海鲜拼盘",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-013",
+          "title": "其他推荐（海牙）",
+          "domain": "flavor",
+          "description": "市集摊位De Kaaskamer购荷兰苹果派、Pannenkoekenrestaurant De Paddestoel尝华夫饼",
+          "hints": "从奶酪到甜点，用市集小吃解锁海牙人的日常美味。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-013-1",
+              "title": "市集摊位De Kaaskamer购荷兰苹果派",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-013-2",
+              "title": "Pannenkoekenrestaurant De Paddestoel尝华夫饼",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-014",
+          "title": "海牙ADDO体育场",
+          "domain": "sports",
+          "description": "ADO海牙足球俱乐部主场，比赛日可体验球迷文化与助威仪式",
+          "hints": "加入蓝黄海洋，亲历一场充满激情与传统的本土德比。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-014-1",
+              "title": "ADO海牙足球俱乐部主场，比赛日可体验球迷文化与助威仪式",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-015",
+          "title": "莫里茨皇家美术馆",
+          "domain": "painting",
+          "description": "维米尔《戴珍珠耳环的少女》、伦勃朗《杜尔博士的解剖课》",
+          "hints": "与北方的蒙娜丽莎对视，揭开那抹神秘微笑背后的光影奇迹。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-015-1",
+              "title": "维米尔《戴珍珠耳环的少女》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-015-2",
+              "title": "伦勃朗《杜尔博士的解剖课》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-016",
+          "title": "埃舍尔博物馆",
+          "domain": "synesthesia",
+          "description": "埃舍尔视错觉原作、不可能建筑系列及互动视觉实验",
+          "hints": "走进埃舍尔的不可能世界，让大脑在真实与幻觉间迷失。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-016-1",
+              "title": "埃舍尔视错觉原作",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-016-2",
+              "title": "不可能建筑系列及互动视觉实验",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-017",
+          "title": "梅斯达格美术馆",
+          "domain": "painting",
+          "description": "19世纪海景画收藏、荷兰海岸全景图及油画修复演示",
+          "hints": "在巨幅海景画前，感受荷兰人与大海的千年爱恨情仇。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-017-1",
+              "title": "19世纪海景画收藏",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-017-2",
+              "title": "荷兰海岸全景图及油画修复演示",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-018",
+          "title": "拿骚家族博物馆",
+          "domain": "painting",
+          "description": "荷兰皇室历史文物、奥兰治家族收藏及王室权杖与冠冕",
+          "hints": "追溯奥兰治家族的荣耀与衰落，了解荷兰王室的前世今生。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-018-1",
+              "title": "荷兰皇室历史文物",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-018-2",
+              "title": "奥兰治家族收藏及王室权杖与冠冕",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-019",
+          "title": "海牙历史博物馆",
+          "domain": "synesthesia",
+          "description": "城市发展史展览、代尔夫特蓝瓷展及威廉三世时代文物",
+          "hints": "从渔村到国际都市，在历史长河中阅读海牙的变迁。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-019-1",
+              "title": "城市发展史展览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-019-2",
+              "title": "代尔夫特蓝瓷展及威廉三世时代文物",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-020",
+          "title": "西布鲁克磨坊",
+          "domain": "synesthesia",
+          "description": "18世纪风车村、传统磨坊工作演示及运河游览",
+          "hints": "走进仍在运转的古风车，在风车叶片的吱呀声中聆听荷兰黄金时代的回响。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-020-1",
+              "title": "18世纪风车村",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-020-2",
+              "title": "传统磨坊工作演示及运河游览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-021",
+          "title": "和平宫国际法院",
+          "domain": "synesthesia",
+          "description": "联合国主要司法机关、常设仲裁法院及庭审旁听预约",
+          "hints": "走进世界正义的殿堂，在庄严的庭审中感受国际法的力量。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-021-1",
+              "title": "联合国主要司法机关",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-021-2",
+              "title": "常设仲裁法院及庭审旁听预约",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-022",
+          "title": "埃gens和平博物馆",
+          "domain": "synesthesia",
+          "description": "诺贝尔和平奖展览、和平主题艺术创作及和平钟",
+          "hints": "在世界和平的圣地，思考战争与和平的永恒命题。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-022-1",
+              "title": "诺贝尔和平奖展览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-022-2",
+              "title": "和平主题艺术创作及和平钟",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-023",
+          "title": "席凡宁根海滩",
+          "domain": "synesthesia",
+          "description": "北海度假沙滩、海鲜餐厅一条街及日落骑行路线",
+          "hints": "在席凡宁根的沙滩上等待北海日落，大口品尝新鲜海虹与炸鱼。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-023-1",
+              "title": "北海度假沙滩",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-023-2",
+              "title": "海鲜餐厅一条街及日落骑行路线",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-024",
+          "title": "路易斯王妃美术馆",
+          "domain": "painting",
+          "description": "19世纪法国绘画、现代摄影收藏及王室婚礼服饰展",
+          "hints": "在法国印象派与荷兰现代摄影的交汇处，发现艺术的无国界之美。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-024-1",
+              "title": "19世纪法国绘画",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-024-2",
+              "title": "现代摄影收藏及王室婚礼服饰展",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-025",
+          "title": "疯狂勇市室",
+          "domain": "flavor",
+          "description": "周六古董市集、周二跳蚤市场及街头艺人表演",
+          "hints": "在海牙最大的露天市集淘古董、尝小吃，感受本地人的周末生活。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-025-1",
+              "title": "周六古董市集",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-025-2",
+              "title": "周二跳蚤市场及街头艺人表演",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "hague-026",
+          "title": "海牙植物园",
+          "domain": "synesthesia",
+          "description": "荷式温室群、药用植物园及兰花收藏",
+          "hints": "在市中心的绿洲中，探索从热带雨林到地中海的多样生态。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "hague-026-1",
+              "title": "荷式温室群",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "hague-026-2",
+              "title": "药用植物园及兰花收藏",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rotterdam",
+      "name": "鹿特丹",
+      "description": "荷兰第二大城市，现代建筑与当代艺术的先锋试验场",
+      "items": [
+        {
+          "id": "rotterdam-001",
+          "title": "立体方块屋",
+          "domain": "synesthesia",
+          "description": "皮特·布洛姆设计的40个倾斜立方体住宅，其中一间改为“童屋体验馆”对外开放",
+          "hints": "走进奇幻立方世界，体验倾斜空间中的童话生活。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-001-1",
+              "title": "皮特·布洛姆设计的40个倾斜立方体住宅，其中一间改为“童屋体验馆”对外开放",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-002",
+          "title": "拱廊市场",
+          "domain": "synesthesia",
+          "description": "Rem Koolhaas设计，屋顶为300套公寓，内部为120个摊位的全天候市场",
+          "hints": "上层居住，下层烟火，一座建筑演绎城市生活的双重奏。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-002-1",
+              "title": "Rem Koolhaas设计，屋顶为300套公寓，内部为120个摊位的全天候市场",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-003",
+          "title": "伊拉斯谟桥",
+          "domain": "synesthesia",
+          "description": "斜拉桥主塔高139米，夜间以LED灯光秀呈现动态色彩变化",
+          "hints": "夜幕下化身发光巨天鹅，用光影书写鹿特丹的现代传奇。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-003-1",
+              "title": "斜拉桥主塔高139米，夜间以LED灯光秀呈现动态色彩变化",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-004",
+          "title": "水上亭阁",
+          "domain": "synesthesia",
+          "description": "OMA设计的浮动会议中心，玻璃外墙映射水面与城市天际线",
+          "hints": "漂浮于水面之上的透明殿堂，将城市倒影纳入建筑灵魂。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-004-1",
+              "title": "OMA设计的浮动会议中心，玻璃外墙映射水面与城市天际线",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-005",
+          "title": "博曼斯美术馆",
+          "domain": "painting",
+          "description": "公共艺术仓库（Art Depot）可透过玻璃墙观看画作修复全过程",
+          "hints": "近距离观看大师画作“重生”，揭开艺术品修复的神秘面纱。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-005-1",
+              "title": "公共艺术仓库（Art Depot）可透过玻璃墙观看画作修复全过程",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-006",
+          "title": "昆莎美术馆",
+          "domain": "painting",
+          "description": "展出达利《记忆的永恒》、蒙克《呐喊》版本及当代装置艺术",
+          "hints": "在超现实梦境与存在焦虑之间，开启一场心灵震荡之旅。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-006-1",
+              "title": "展出达利《记忆的永恒》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-006-2",
+              "title": "蒙克《呐喊》版本及当代装置艺术",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-007",
+          "title": "无手之战",
+          "domain": "sculpture",
+          "description": "奥西普·扎德金《Zadkine's The Destroyed City》青铜雕塑，纪念鹿特丹轰炸",
+          "hints": "仰望扭曲的人形呐喊，铭记战火中重生的城市灵魂。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-007-1",
+              "title": "奥西普·扎德金《Zadkine's The Destroyed City》青铜雕塑，纪念鹿特丹轰炸",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-008",
+          "title": "公共艺术仓库",
+          "domain": "sculpture",
+          "description": "Depot Boijmans Van Beuningen，外立面由6,609块曲面镜面玻璃构成",
+          "hints": "全球首座对外开放的艺术仓库，镜面外墙映照鹿特丹的多元面貌。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-008-1",
+              "title": "Depot Boijmans Van Beuningen，外立面由6,609块曲面镜面玻璃构成",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-009",
+          "title": "德多伦音乐厅",
+          "domain": "music",
+          "description": "鹿特丹爱乐乐团驻地，每月举办“新锐之声”现代音乐专场",
+          "hints": "在先锋声场中聆听未来旋律，感受现代音乐的无限边界。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-009-1",
+              "title": "鹿特丹爱乐乐团驻地，每月举办“新锐之声”现代音乐专场",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-010",
+          "title": "Louis Hartlooper Complex",
+          "domain": "film",
+          "description": "放映独立电影与纪录片，设有VR影像体验室",
+          "hints": "从胶片到虚拟现实，探索影像艺术的过去与未来形态。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-010-1",
+              "title": "放映独立电影与纪录片，设有VR影像体验室",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-011",
+          "title": "鹿特丹文学之家",
+          "domain": "literature",
+          "description": "每月举办诗歌朗诵会、作家对谈与青年写作工作坊",
+          "hints": "在思想碰撞中激发文字灵感，成为城市文学生态的一部分。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-011-1",
+              "title": "每月举办诗歌朗诵会",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-011-2",
+              "title": "作家对谈与青年写作工作坊",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-012",
+          "title": "鹿特丹剧院",
+          "domain": "synesthesia",
+          "description": "上演Ivo van Hove导演作品《罗马悲剧》《安提戈涅》，融合多媒体舞台技术",
+          "hints": "当古典悲剧遇上数字舞台，见证戏剧表现形式的革命性突破。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-012-1",
+              "title": "上演Ivo van Hove导演作品《罗马悲剧》《安提戈涅》，融合多媒体舞台技术",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-013",
+          "title": "Fenix Food Factory",
+          "domain": "flavor",
+          "description": "推荐摊位：RotterZwam（蘑菇汉堡）、Surya (苏里南咖喱角)、De Burgermeester（炸肉丸）",
+          "hints": "多元文化汇聚一堂，用一口苏里南咖喱角尝尽鹿特丹风味。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-013-1",
+              "title": "推荐摊位：RotterZwam（蘑菇汉堡）",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-013-2",
+              "title": "Surya (苏里南咖喱角)",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-013-3",
+              "title": "De Burgermeester（炸肉丸）",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-014",
+          "title": "费耶诺德体育场",
+          "domain": "sports",
+          "description": "费耶诺德主场，比赛日前夕开放博物馆参观，含“德比荣耀”历史展",
+          "hints": "走进橙色狂潮的心脏，重温鹿特丹最炽热的足球荣耀。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-014-1",
+              "title": "费耶诺德主场，比赛日前夕开放博物馆参观，含“德比荣耀”历史展",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-015",
+          "title": "斯巴达城堡球场",
+          "domain": "sports",
+          "description": "鹿特丹斯巴达主场，可预订“球员通道体验”与赛后草坪漫步",
+          "hints": "以球员视角步入赛场，在古老球场感受百年俱乐部的厚重底蕴。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-015-1",
+              "title": "鹿特丹斯巴达主场，可预订“球员通道体验”与赛后草坪漫步",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-016",
+          "title": "博伊曼斯博物馆",
+          "domain": "painting",
+          "description": "达利《记忆的永恒》、蒙克《呐喊》真迹及荷兰黄金时代精品",
+          "hints": "在超现实梦境与存在焦虑之间，开启一场心灵震荡之旅。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-016-1",
+              "title": "达利《记忆的永恒》",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-016-2",
+              "title": "蒙克《呐喊》真迹及荷兰黄金时代精品",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-017",
+          "title": "艺术仓库Depot",
+          "domain": "painting",
+          "description": "全球首座公共艺术仓库、6609块镜面玻璃外墙及仓储式展示",
+          "hints": "在镜子宫殿中探索艺术保存的奥秘，从幕后看艺术品如何安睡。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-017-1",
+              "title": "全球首座公共艺术仓库",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-017-2",
+              "title": "6609块镜面玻璃外墙及仓储式展示",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-018",
+          "title": "鹿特丹美术馆",
+          "domain": "synesthesia",
+          "description": "包豪斯设计系列、构成主义雕塑及荷兰设计史",
+          "hints": "在包豪斯与构成主义的对话中，发现功能与美的完美平衡。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-018-1",
+              "title": "包豪斯设计系列",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-018-2",
+              "title": "构成主义雕塑及荷兰设计史",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-019",
+          "title": "欧洲桅杆",
+          "domain": "synesthesia",
+          "description": "185米高观光塔、旋转电梯舱及城市全景解说",
+          "hints": "登上欧洲之桅，在云端俯瞰荷兰建筑的无限可能。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-019-1",
+              "title": "185米高观光塔",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-019-2",
+              "title": "旋转电梯舱及城市全景解说",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-020",
+          "title": "方块屋建筑群",
+          "domain": "synesthesia",
+          "description": "皮特·布洛姆设计的倾斜立方体、童屋民宿体验及建筑导览",
+          "hints": "走进奇幻立方世界，体验倾斜空间中的童话生活。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-020-1",
+              "title": "皮特·布洛姆设计的倾斜立方体",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-020-2",
+              "title": "童屋民宿体验及建筑导览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-021",
+          "title": "市场大厅",
+          "domain": "synesthesia",
+          "description": "拱形中庭壁画、300套公寓屋顶及120个美食摊位",
+          "hints": "上层居住，下层烟火，一座建筑演绎城市生活的双重奏。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-021-1",
+              "title": "拱形中庭壁画",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-021-2",
+              "title": "300套公寓屋顶及120个美食摊位",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-022",
+          "title": "伊拉斯谟斯大桥",
+          "domain": "synesthesia",
+          "description": "斜拉桥塔楼、LED夜间灯光秀及桥身观景平台",
+          "hints": "夜幕下化身发光巨天鹅，用光影书写鹿特丹的现代传奇。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-022-1",
+              "title": "斜拉桥塔楼",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-022-2",
+              "title": "LED夜间灯光秀及桥身观景平台",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-023",
+          "title": "斯皮多游船",
+          "domain": "synesthesia",
+          "description": "港口游船游览、天际线摄影点及工业遗址观光",
+          "hints": "从水上视角欣赏荷兰最大港口的繁忙与壮美。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-023-1",
+              "title": "港口游船游览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-023-2",
+              "title": "天际线摄影点及工业遗址观光",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-024",
+          "title": "鹿特丹档案馆",
+          "domain": "synesthesia",
+          "description": "城市历史文献、港口发展史展览及老照片收藏",
+          "hints": "在档案的字里行间，重读鹿特丹从渔港到世界最大港的传奇。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-024-1",
+              "title": "城市历史文献",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-024-2",
+              "title": "港口发展史展览及老照片收藏",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-025",
+          "title": "世界博物馆",
+          "domain": "synesthesia",
+          "description": "非西方文化收藏、原住民艺术展及世界宗教专题",
+          "hints": "在鹿特丹拥抱世界，从多元文化视角理解人类共同的艺术遗产。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-025-1",
+              "title": "非西方文化收藏",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-025-2",
+              "title": "原住民艺术展及世界宗教专题",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-026",
+          "title": "老港口区",
+          "domain": "synesthesia",
+          "description": "17世纪码头仓库改建的酒吧餐厅、露天咖啡座及历史船只展",
+          "hints": "在老港口的甲板上品尝本地啤酒，看新建筑与旧仓库的时空对话。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-026-1",
+              "title": "17世纪码头仓库改建的酒吧餐厅",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-026-2",
+              "title": "露天咖啡座及历史船只展",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "rotterdam-027",
+          "title": "Do，博代会",
+          "domain": "flavor",
+          "description": "周一到周六不同主题市集、二手古着店及时尚设计品店",
+          "hints": "在鹿特丹最时髦的街区，探索荷兰新锐设计与复古潮流的碰撞。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "rotterdam-027-1",
+              "title": "周一到周六不同主题市集",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "rotterdam-027-2",
+              "title": "二手古着店及时尚设计品店",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "utrecht",
+      "name": "乌得勒支",
+      "description": "荷兰第四大城市，风格派艺术发源地与米菲兔的故乡",
+      "items": [
+        {
+          "id": "utrecht-001",
+          "title": "多姆塔",
+          "domain": "synesthesia",
+          "description": "465级台阶登顶，钟楼每整点演奏Carillon编钟乐曲",
+          "hints": "攀登历史高塔，在钟声回荡中俯瞰乌得勒支千年城景。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-001-1",
+              "title": "465级台阶登顶，钟楼每整点演奏Carillon编钟乐曲",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-002",
+          "title": "里特费尔德施罗德住宅",
+          "domain": "synesthesia",
+          "description": "格里特·里特费尔德1924年设计，风格派代表作，内部色彩方案为红黄蓝黑",
+          "hints": "走进立体主义生活空间，亲身体验风格派如何重塑居住艺术。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-002-1",
+              "title": "格里特·里特费尔德1924年设计，风格派代表作，内部色彩方案为红黄蓝黑",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-003",
+          "title": "中央博物馆",
+          "domain": "painting",
+          "description": "收藏超过200件里特费尔德家具设计与迪克·布鲁纳《米菲兔》原始画稿",
+          "hints": "从红黄蓝的椅子到可爱的米菲，读懂乌得勒支的艺术基因。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-003-1",
+              "title": "收藏超过200件里特费尔德家具设计与迪克·布鲁纳《米菲兔》原始画稿",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-004",
+          "title": "迪克·布鲁纳故居",
+          "domain": "painting",
+          "description": "保留其生前工作室原貌，展出《米菲兔去海边》等绘本手稿",
+          "hints": "走进创作原点，看那只小白兔如何从草图跃入全世界童心。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-004-1",
+              "title": "保留其生前工作室原貌，展出《米菲兔去海边》等绘本手稿",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-005",
+          "title": "TivoliVredenburg",
+          "domain": "music",
+          "description": "五个厅分别举办古典、电子、世界音乐演出，舞蹈厅常驻Introdans现代舞团",
+          "hints": "一座音乐综合体，让巴赫与电子乐在同一夜自由对话。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-005-1",
+              "title": "五个厅分别举办古典",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-005-2",
+              "title": "电子",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-005-3",
+              "title": "世界音乐演出，舞蹈厅常驻Introdans现代舞团",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-006",
+          "title": "迪克·布鲁纳雕塑",
+          "domain": "sculpture",
+          "description": "市中心多处米菲兔铜像：Neude广场坐姿米菲、Jaarbeursplein骑行米菲",
+          "hints": "在街头偶遇米菲，开启一场属于全年龄的城市寻兔之旅。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-006-1",
+              "title": "市中心多处米菲兔铜像：Neude广场坐姿米菲",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-006-2",
+              "title": "Jaarbeursplein骑行米菲",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-007",
+          "title": "乌得勒支大学图书馆",
+          "domain": "literature",
+          "description": "主厅“知识圣殿”设计震撼，藏有中世纪手抄本与现代学术艺术装置",
+          "hints": "步入知识的圣殿，在千年文献与当代艺术间寻找智慧之光。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-007-1",
+              "title": "主厅“知识圣殿”设计震撼，藏有中世纪手抄本与现代学术艺术装置",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-008",
+          "title": "Stadsschouwburg Utrecht",
+          "domain": "synesthesia",
+          "description": "上演荷兰语版《歌剧魅影》《狮子王》等大型音乐剧",
+          "hints": "在华丽舞台上见证经典巨制，让音乐剧的魔力点燃夜晚。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-008-1",
+              "title": "上演荷兰语版《歌剧魅影》《狮子王》等大型音乐剧",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-009",
+          "title": "Oudaen",
+          "domain": "flavor",
+          "description": "中世纪城堡内用餐，推荐“骑士套餐”配本地葡萄酒与炖菜",
+          "hints": "穿越时空的晚餐，在古堡石墙间品味骑士时代的风味传承。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-009-1",
+              "title": "中世纪城堡内用餐，推荐“骑士套餐”配本地葡萄酒与炖菜",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-010",
+          "title": "其他推荐（乌得勒支）",
+          "domain": "flavor",
+          "description": "Café De Vitrine购Dorp糖、Restaurant Moeders尝乌特勒支炖汤、De Kromme Dissel享猪排",
+          "hints": "从传统糖果到家常炖汤，用舌尖品味乌得勒支的温情记忆。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-010-1",
+              "title": "Café De Vitrine购Dorp糖",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-010-2",
+              "title": "Restaurant Moeders尝乌特勒支炖汤",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-010-3",
+              "title": "De Kromme Dissel享猪排",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-011",
+          "title": "加尔根沃德球场",
+          "domain": "sports",
+          "description": "乌德勒支足球俱乐部主场，设有家庭观赛区与球迷纪念品商店",
+          "hints": "带上家人一起欢呼，在绿色海洋中感受本地足球的纯粹热爱。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-011-1",
+              "title": "乌德勒支足球俱乐部主场，设有家庭观赛区与球迷纪念品商店",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-012",
+          "title": "德哈尔城堡",
+          "domain": "synesthesia",
+          "description": "新哥特式城堡建筑、童话塔楼及德哈尔家族收藏绘画",
+          "hints": "走进荷兰版的迪士尼城堡，在塔楼与护城河间圆一个王子公主梦。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-012-1",
+              "title": "新哥特式城堡建筑",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-012-2",
+              "title": "童话塔楼及德哈尔家族收藏绘画",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-013",
+          "title": "乌得勒支大学图书馆",
+          "domain": "synesthesia",
+          "description": "主楼知识圣殿设计、中世纪手稿收藏及学术艺术装置",
+          "hints": "步入知识的圣殿，在千年文献与当代艺术间寻找智慧之光。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-013-1",
+              "title": "主楼知识圣殿设计",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-013-2",
+              "title": "中世纪手稿收藏及学术艺术装置",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-014",
+          "title": "乌得勒支音乐厅",
+          "domain": "music",
+          "description": "五个主题演出厅、古典与电子音乐节及Introdans现代舞团",
+          "hints": "一座音乐综合体，让巴赫与电子乐在同一夜自由对话。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-014-1",
+              "title": "五个主题演出厅",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-014-2",
+              "title": "古典与电子音乐节及Introdans现代舞团",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-015",
+          "title": "荷兰音乐博物馆",
+          "domain": "music",
+          "description": "荷兰音乐史展览、街头风琴收藏及现场演奏演示",
+          "hints": "在街头风琴的旋律中，聆听荷兰人对音乐的热爱与执着。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-015-1",
+              "title": "荷兰音乐史展览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-015-2",
+              "title": "街头风琴收藏及现场演奏演示",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-016",
+          "title": "乌得勒支市中心大教堂",
+          "domain": "synesthesia",
+          "description": "荷兰最高教堂塔楼、地下室考古遗迹及登顶体验",
+          "hints": "攀登多米尼斯的钟楼之巅，在荷兰心脏俯瞰千年古塔与今日乌得勒支。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-016-1",
+              "title": "荷兰最高教堂塔楼",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-016-2",
+              "title": "地下室考古遗迹及登顶体验",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-017",
+          "title": "贝尔尼博物馆",
+          "domain": "synesthesia",
+          "description": "应用艺术与装饰艺术、，从中世纪到现代的设计演变",
+          "hints": "在装饰艺术的美学中，发现日常物品如何成为艺术品。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-017-1",
+              "title": "应用艺术与装饰艺术",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-017-2",
+              "title": "，从中世纪到现代的设计演变",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-018",
+          "title": "果鸿天地",
+          "domain": "flavor",
+          "description": "中世纪城堡庭院餐厅、传统荷兰料理及城堡花园",
+          "hints": "穿越时空的晚餐，在古堡石墙间品味骑士时代的风味传承。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-018-1",
+              "title": "中世纪城堡庭院餐厅",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-018-2",
+              "title": "传统荷兰料理及城堡花园",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-019",
+          "title": "乌得勒支植物园",
+          "domain": "synesthesia",
+          "description": "荷式温室历史建筑、药用植物区及亚洲植物收藏",
+          "hints": "在荷兰最古老的植物园中，探索植物学与殖民贸易的交织历史。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-019-1",
+              "title": "荷式温室历史建筑",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-019-2",
+              "title": "药用植物区及亚洲植物收藏",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-020",
+          "title": "荷兰漫画博物馆",
+          "domain": "synesthesia",
+          "description": "荷兰漫画史展览、蓝精灵原画及漫画工作坊",
+          "hints": "走进蓝精灵的故乡，发现荷兰人对漫画艺术的独特贡献。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-020-1",
+              "title": "荷兰漫画史展览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-020-2",
+              "title": "蓝精灵原画及漫画工作坊",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-021",
+          "title": "乌得勒支城市工厂",
+          "domain": "synesthesia",
+          "description": "旧工厂改造创意园区、独立设计师工作室及周末创意市集",
+          "hints": "在旧工厂的阁楼中，与荷兰新锐设计师一起探索创意的边界。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-021-1",
+              "title": "旧工厂改造创意园区",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-021-2",
+              "title": "独立设计师工作室及周末创意市集",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-022",
+          "title": "旧运河及维尔德船",
+          "domain": "synesthesia",
+          "description": "Oudegracht运河夜景、水上咖啡座及传统荷兰船游览",
+          "hints": "在运河两岸的酒吧中品酒，看维尔德船在月光下静静驶过。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-022-1",
+              "title": "Oudegracht运河夜景",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-022-2",
+              "title": "水上咖啡座及传统荷兰船游览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "utrecht-023",
+          "title": "音乐钟博物馆",
+          "domain": "synesthesia",
+          "description": "自动演奏乐器收藏、音乐盒展览及现场演奏会",
+          "hints": "在音乐盒的叮咚声中，聆听工业革命时代的机械音乐奇迹。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "utrecht-023-1",
+              "title": "自动演奏乐器收藏",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "utrecht-023-2",
+              "title": "音乐盒展览及现场演奏会",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keukenhof",
+      "name": "库肯霍夫",
+      "description": "欧洲最大的郁金香花田，世界闻名的春季花卉展览",
+      "items": [
+        {
+          "id": "keukenhof-001",
+          "title": "库肯霍夫花园",
+          "domain": "sculpture",
+          "description": "700万朵郁金香花田、主题花园展及荷兰设计花园",
+          "hints": "在彩虹般的花海中拍摄大片，乘复古火车穿越花田迷宫。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "keukenhof-001-1",
+              "title": "700万朵郁金香花田",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "keukenhof-001-2",
+              "title": "主题花园展及荷兰设计花园",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "keukenhof-002",
+          "title": "百年树木园",
+          "domain": "synesthesia",
+          "description": "古老橡树群、樱花大道及春季球根花卉展示",
+          "hints": "在百年古树下野餐，感受荷兰人对园艺的百年执着。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "keukenhof-002-1",
+              "title": "古老橡树群",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "keukenhof-002-2",
+              "title": "樱花大道及春季球根花卉展示",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "keukenhof-003",
+          "title": "威廉·亚历山大观景塔",
+          "domain": "synesthesia",
+          "description": "32米高观景塔、花田航拍视角及花园全景解说",
+          "hints": "登上观景塔，以飞鸟视角俯瞰荷兰花田的壮美图案。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "keukenhof-003-1",
+              "title": "32米高观景塔",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "keukenhof-003-2",
+              "title": "花田航拍视角及花园全景解说",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "keukenhof-004",
+          "title": "郁金香培育温室",
+          "domain": "synesthesia",
+          "description": "稀有郁金香品种展示、培育过程讲解及鲜花拍卖",
+          "hints": "了解郁金香从球茎到花朵的完整生命周期，参与真实的鲜花拍卖。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "keukenhof-004-1",
+              "title": "稀有郁金香品种展示",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "keukenhof-004-2",
+              "title": "培育过程讲解及鲜花拍卖",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "keukenhof-005",
+          "title": "风信子花园",
+          "domain": "sculpture",
+          "description": "风信子花海、水仙花道及番红花草坪",
+          "hints": "在风信子的芬芳中漫步，捕捉荷兰春天最绚丽的色彩。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "keukenhof-005-1",
+              "title": "风信子花海",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "keukenhof-005-2",
+              "title": "水仙花道及番红花草坪",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "keukenhof-006",
+          "title": "鳞茎花卉博物馆",
+          "domain": "synesthesia",
+          "description": "郁金香历史展览、球根花卉科学及荷兰花艺设计",
+          "hints": "在17世纪郁金香狂热的历史中，理解荷兰人对花的痴迷。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "keukenhof-006-1",
+              "title": "郁金香历史展览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "keukenhof-006-2",
+              "title": "球根花卉科学及荷兰花艺设计",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giethoorn",
+      "name": "羊角村",
+      "description": "荷兰威尼斯的绿色水乡，运河与茅草屋顶的童话世界",
+      "items": [
+        {
+          "id": "giethoorn-001",
+          "title": "羊角村运河巡游",
+          "domain": "synesthesia",
+          "description": "传统平底船游览、茅草屋顶农舍及小木桥风光",
+          "hints": "乘坐平底船穿梭于绿色水乡，在茅草屋的倒影中感受威尼斯的宁静。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "giethoorn-001-1",
+              "title": "传统平底船游览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "giethoorn-001-2",
+              "title": "茅草屋顶农舍及小木桥风光",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "giethoorn-002",
+          "title": "弗兰纳尔茨博物馆",
+          "domain": "synesthesia",
+          "description": "羊角村历史文物、泥炭开采展览及茅草屋顶建筑展示",
+          "hints": "了解羊角村从泥炭开采地到童话小镇的历史变迁。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "giethoorn-002-1",
+              "title": "羊角村历史文物",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "giethoorn-002-2",
+              "title": "泥炭开采展览及茅草屋顶建筑展示",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "giethoorn-003",
+          "title": "绿色小径骑行",
+          "domain": "synesthesia",
+          "description": "环村自行车道、田园风光及森林沼泽景观",
+          "hints": "租一辆自行车，在绿色小径间穿梭，感受荷兰乡村的宁静与美丽。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "giethoorn-003-1",
+              "title": "环村自行车道",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "giethoorn-003-2",
+              "title": "田园风光及森林沼泽景观",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "giethoorn-004",
+          "title": "农场体验",
+          "domain": "flavor",
+          "description": "奶酪农场参观、农场餐厅及新鲜牛奶品尝",
+          "hints": "在传统荷兰农场中品尝新鲜奶酪，看奶牛在草原上悠闲吃草。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "giethoorn-004-1",
+              "title": "奶酪农场参观",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "giethoorn-004-2",
+              "title": "农场餐厅及新鲜牛奶品尝",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "giethoorn-005",
+          "title": "贝安山徒步",
+          "domain": "sculpture",
+          "description": "沼泽地木栈道、稀有鸟类观察及自然解说中心",
+          "hints": "在木栈道上静观稀有鸟类，用望远镜捕捉大自然的生动瞬间。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "giethoorn-005-1",
+              "title": "沼泽地木栈道",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "giethoorn-005-2",
+              "title": "稀有鸟类观察及自然解说中心",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "giethoorn-006",
+          "title": "小船租赁",
+          "domain": "synesthesia",
+          "description": "自驾小船游览、钓鱼体验及野餐点推荐",
+          "hints": "自己驾驶小船漫游水巷，在无人打扰的水道中享受宁静时光。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "giethoorn-006-1",
+              "title": "自驾小船游览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "giethoorn-006-2",
+              "title": "钓鱼体验及野餐点推荐",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delft",
+      "name": "代尔夫特",
+      "description": "荷兰蓝瓷的故乡，维米尔与科学的交汇之城",
+      "items": [
+        {
+          "id": "delft-001",
+          "title": "皇家代尔夫特蓝瓷厂",
+          "domain": "painting",
+          "description": "蓝瓷制作演示、历代精品收藏及亲手绘制蓝瓷体验",
+          "hints": "在蓝瓷工坊中亲手绘制一件属于自己的代尔夫特蓝瓷。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "delft-001-1",
+              "title": "蓝瓷制作演示",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "delft-001-2",
+              "title": "历代精品收藏及亲手绘制蓝瓷体验",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "delft-002",
+          "title": "维米尔艺术中心",
+          "domain": "synesthesia",
+          "description": "维米尔画作赏析、暗箱光学实验及画家工作室重建",
+          "hints": "探索维米尔如何在暗室中用光学原理创作《戴珍珠耳环的少女》。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "delft-002-1",
+              "title": "维米尔画作赏析",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "delft-002-2",
+              "title": "暗箱光学实验及画家工作室重建",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "delft-003",
+          "title": "新教堂",
+          "domain": "synesthesia",
+          "description": "荷兰皇室安葬地、拿骚家族墓穴及钟楼登顶",
+          "hints": "在新教堂的穹顶下，缅怀奥兰治王朝的荣耀与悲剧。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "delft-003-1",
+              "title": "荷兰皇室安葬地",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "delft-003-2",
+              "title": "拿骚家族墓穴及钟楼登顶",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "delft-004",
+          "title": "代尔夫特科技大学",
+          "domain": "synesthesia",
+          "description": "荷兰四大理工大学之一、校园开放日及科技博物馆",
+          "hints": "在理工科的象牙塔中，感受荷兰创新的脉动与未来。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "delft-004-1",
+              "title": "荷兰四大理工大学之一",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "delft-004-2",
+              "title": "校园开放日及科技博物馆",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "delft-005",
+          "title": "代尔夫特美术馆",
+          "domain": "synesthesia",
+          "description": "当代荷兰艺术展、本地艺术家工作室及艺术节",
+          "hints": "在代尔夫特的艺术生态中，发现荷兰当代艺术的新锐力量。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "delft-005-1",
+              "title": "当代荷兰艺术展",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "delft-005-2",
+              "title": "本地艺术家工作室及艺术节",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "delft-006",
+          "title": "市政档案馆",
+          "domain": "synesthesia",
+          "description": "代尔夫特蓝瓷档案、市政历史文件及老照片展",
+          "hints": "在档案的故纸堆中，追溯代尔夫特蓝瓷的工艺传承。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "delft-006-1",
+              "title": "代尔夫特蓝瓷档案",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "delft-006-2",
+              "title": "市政历史文件及老照片展",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "delft-007",
+          "title": "奥斯特鱼市场",
+          "domain": "synesthesia",
+          "description": "传统鱼市集、鲱鱼生吃体验及本地小吃摊",
+          "hints": "在荷兰最古老的鱼市品尝鲱鱼三明治，感受本地人的日常生活。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "delft-007-1",
+              "title": "传统鱼市集",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "delft-007-2",
+              "title": "鲱鱼生吃体验及本地小吃摊",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eindhoven",
+      "name": "埃因霍温",
+      "description": "荷兰设计之都，飞利浦与光技术的创新之城",
+      "items": [
+        {
+          "id": "eindhoven-001",
+          "title": "范阿姆博物馆",
+          "domain": "painting",
+          "description": "设计博物馆、荷兰设计史及埃因霍温设计周",
+          "hints": "在设计之都的心脏，探索荷兰设计的过去、现在与未来。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "eindhoven-001-1",
+              "title": "设计博物馆",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "eindhoven-001-2",
+              "title": "荷兰设计史及埃因霍温设计周",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "eindhoven-002",
+          "title": "飞利浦博物馆",
+          "domain": "synesthesia",
+          "description": "飞利浦历史展览、光技术创新及未来科技体验",
+          "hints": "从灯泡到CT扫描，在飞利浦的创新历程中预见科技改变世界的力量。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "eindhoven-002-1",
+              "title": "飞利浦历史展览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "eindhoven-002-2",
+              "title": "光技术创新及未来科技体验",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "eindhoven-003",
+          "title": "城市历史中心",
+          "domain": "synesthesia",
+          "description": "埃因霍温城市发展史、工业化进程展及工人文化",
+          "hints": "从工业小镇到创新之城，理解埃因霍温的百年蜕变。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "eindhoven-003-1",
+              "title": "埃因霍温城市发展史",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "eindhoven-003-2",
+              "title": "工业化进程展及工人文化",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "eindhoven-004",
+          "title": "艺术港区",
+          "domain": "synesthesia",
+          "description": "旧工业区改造、艺术工作室聚集地及创意市集",
+          "hints": "在废弃工厂改造的艺术港区，感受荷兰创意产业的蓬勃生机。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "eindhoven-004-1",
+              "title": "旧工业区改造",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "eindhoven-004-2",
+              "title": "艺术工作室聚集地及创意市集",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "eindhoven-005",
+          "title": "DAF博物馆",
+          "domain": "synesthesia",
+          "description": "荷兰汽车历史、DAF卡车发展史及试驾体验",
+          "hints": "在荷兰骄傲的DAF卡车旁，了解荷兰人对工业设计的执着追求。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "eindhoven-005-1",
+              "title": "荷兰汽车历史",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "eindhoven-005-2",
+              "title": "DAF卡车发展史及试驾体验",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "eindhoven-006",
+          "title": "光之魅力",
+          "domain": "synesthesia",
+          "description": "光技术互动展览、未来照明体验及城市灯光节",
+          "hints": "在光之圣殿中探索光的无限可能，窥见未来城市的照明革命。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "eindhoven-006-1",
+              "title": "光技术互动展览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "eindhoven-006-2",
+              "title": "未来照明体验及城市灯光节",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maastricht",
+      "name": "马斯特里赫特",
+      "description": "荷兰最古老的城市之一，艺术展会与历史遗迹的交汇点",
+      "items": [
+        {
+          "id": "maastricht-001",
+          "title": "弗莱特霍夫艺术展会",
+          "domain": "synesthesia",
+          "description": "欧洲顶级艺术博览会、古董与设计展及VIP预览",
+          "hints": "在世界级的艺术盛会中，与全球收藏家一同探索艺术的无限价值。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "maastricht-001-1",
+              "title": "欧洲顶级艺术博览会",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "maastricht-001-2",
+              "title": "古董与设计展及VIP预览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "maastricht-002",
+          "title": "圣瑟法斯圣殿",
+          "domain": "synesthesia",
+          "description": "荷兰最古老的教堂之一、地下墓室及罗马遗址",
+          "hints": "在荷兰最古老的基督教遗址中，触摸2000年的信仰传承。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "maastricht-002-1",
+              "title": "荷兰最古老的教堂之一",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "maastricht-002-2",
+              "title": "地下墓室及罗马遗址",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "maastricht-003",
+          "title": "波内克莱街",
+          "domain": "synesthesia",
+          "description": "欧洲最美的书店之一、圣殿区购物街及咖啡文化",
+          "hints": "在由教堂改建的世界最美书店中，感受书香与神圣建筑的完美融合。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "maastricht-003-1",
+              "title": "欧洲最美的书店之一",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "maastricht-003-2",
+              "title": "圣殿区购物街及咖啡文化",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "maastricht-004",
+          "title": "马斯特里赫特当代艺术",
+          "domain": "painting",
+          "description": "城市艺术地图、公共艺术作品及艺术家驻留项目",
+          "hints": "跟随艺术地图，在街头巷尾发现改变城市面貌的当代艺术。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "maastricht-004-1",
+              "title": "城市艺术地图",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "maastricht-004-2",
+              "title": "公共艺术作品及艺术家驻留项目",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "maastricht-005",
+          "title": "马斯河游船",
+          "domain": "synesthesia",
+          "description": "城市河流游览、两岸建筑解说及夕阳巡航",
+          "hints": "在马斯河上以新视角欣赏两岸的历史与现代建筑对话。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "maastricht-005-1",
+              "title": "城市河流游览",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "maastricht-005-2",
+              "title": "两岸建筑解说及夕阳巡航",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "maastricht-006",
+          "title": "荷兰美食阁",
+          "domain": "synesthesia",
+          "description": "米其林餐厅集中地、本地特色料理及美食节",
+          "hints": "在马斯特里赫特的美食殿堂，用舌尖品味荷兰的精致与多元。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "maastricht-006-1",
+              "title": "米其林餐厅集中地",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "maastricht-006-2",
+              "title": "本地特色料理及美食节",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        },
+        {
+          "id": "maastricht-007",
+          "title": "伯纳日疗养地",
+          "domain": "synesthesia",
+          "description": "19世纪疗养建筑、山地风光及艺术工作坊",
+          "hints": "在荷兰高地的疗养花园中，寻找艺术与自然的疗愈力量。",
+          "exploreStatus": "unexplored",
+          "subItems": [
+            {
+              "id": "maastricht-007-1",
+              "title": "19世纪疗养建筑",
+              "description": "",
+              "exploreStatus": "unexplored"
+            },
+            {
+              "id": "maastricht-007-2",
+              "title": "山地风光及艺术工作坊",
+              "description": "",
+              "exploreStatus": "unexplored"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

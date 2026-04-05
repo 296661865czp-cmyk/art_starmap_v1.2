@@ -1,0 +1,1229 @@
+:root {
+  /* 背景 */
+  --bg-primary: #F7F8FA;
+  --bg-card: #FFFFFF;
+
+  /* 三大模块主题色 */
+  --color-treasure-map: #6366F1;
+  --color-treasure-map-bg: #EEF0FF;
+  --color-collect: #D4A574;
+  --color-collect-bg: #FFF8F0;
+  --color-vault: #64B5F6;
+  --color-vault-bg: #EFF8FF;
+
+  /* 文字 */
+  --text-primary: #1A237E;
+  --text-secondary: #6B7280;
+  --text-hint: #9CA3AF;
+
+  /* Domain 标签色 */
+  --domain-music: #3B82F6;
+  --domain-painting: #E85D75;
+  --domain-sculpture: #6B9E7A;
+  --domain-dance: #E87B4A;
+  --domain-literature: #8B6FC0;
+  --domain-flavor: #D4A030;
+  --domain-film: #C75B7A;
+  --domain-synesthesia: #4ABFC9;
+  --domain-sports: #52A86B;
+
+  /* 感官指纹维度色 */
+  --sensory-hearing: #3B82F6;
+  --sensory-sight: #E8A838;
+  --sensory-touch: #4CAF50;
+  --sensory-smell: #9C6ADE;
+  --sensory-taste: #E85D5D;
+  --sensory-body: #E8873A;
+  --sensory-time: #3F51B5;
+
+  /* 状态色 */
+  --status-explored: #3B82F6;
+  --status-next: #E87B4A;
+  --status-unexplored: #9CA3AF;
+
+  /* 通用 */
+  --border-color: #E5E7EB;
+  --border-radius-card: 14px;
+  --border-radius-pill: 20px;
+  --border-radius-button: 8px;
+  --spacing-page: 20px;
+  --spacing-card-gap: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.app-page {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-page);
+  padding-bottom: 48px;
+  min-height: 100vh;
+}
+
+/* ─── 顶部导航 ─── */
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 24px;
+}
+
+.top-nav .back-btn {
+  position: absolute;
+  left: 0;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.top-nav .nav-title {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* ─── 首页标题区 ─── */
+.hero-subtitle {
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--text-hint);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.hero-title {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 8px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.hero-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.hero-count {
+  font-size: 12px;
+  color: var(--text-hint);
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+/* ─── 底部信息 ─── */
+.bottom-info {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-hint);
+  margin-top: 24px;
+}
+
+.export-link {
+  color: var(--color-treasure-map);
+  cursor: pointer;
+}
+
+.export-link:hover {
+  text-decoration: underline;
+}
+
+/* ─── 模块入口卡片 ─── */
+.module-cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-card-gap);
+  margin-bottom: 32px;
+}
+
+.module-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-card);
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.module-card:active {
+  transform: scale(0.98);
+}
+
+.module-card .card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.card-title {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.card-count {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+/* ─── 页面副标题 ─── */
+.page-subtitle {
+  font-size: 14px;
+  color: var(--text-hint);
+  margin-bottom: 16px;
+}
+
+/* ─── 列表页 ─── */
+.map-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-card-gap);
+}
+
+.map-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-card);
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.map-card:active {
+  transform: scale(0.98);
+}
+
+.map-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.map-card-icon {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.map-card-title {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.map-card-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.map-card-creator {
+  font-size: 12px;
+  color: var(--text-hint);
+  margin-bottom: 8px;
+}
+
+.map-card-meta {
+  display: flex;
+  gap: 8px;
+}
+
+.map-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.map-type-badge {
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: var(--border-radius-pill);
+  background: var(--color-treasure-map-bg);
+  color: var(--color-treasure-map);
+}
+
+/* ─── 章节选择弹窗 ─── */
+.chapter-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.chapter-card {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-button);
+  padding: 14px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.chapter-card:active {
+  background: var(--bg-primary);
+}
+
+.chapter-card-name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.chapter-card-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ─── 章节详情 ─── */
+.chapter-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+/* ─── 面包屑 ─── */
+.breadcrumb-row {
+  margin-bottom: 4px;
+}
+
+.breadcrumb-pill {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: var(--border-radius-pill);
+  background: var(--color-treasure-map-bg);
+  color: var(--color-treasure-map);
+}
+
+/* ─── 筛选标签 ─── */
+.filter-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+}
+
+.filter-tab {
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: var(--border-radius-pill);
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+
+.filter-tab.active[data-filter="all"] {
+  background: var(--color-treasure-map);
+  color: #fff;
+  border-color: var(--color-treasure-map);
+}
+
+.filter-tab.active[data-filter="explored"] {
+  background: var(--status-explored);
+  color: #fff;
+  border-color: var(--status-explored);
+}
+
+.filter-tab.active[data-filter="next"] {
+  background: var(--status-next);
+  color: #fff;
+  border-color: var(--status-next);
+}
+
+.filter-tab.active[data-filter="unexplored"] {
+  background: var(--status-unexplored);
+  color: #fff;
+  border-color: var(--status-unexplored);
+}
+
+/* ─── 探索点卡片 ─── */
+.item-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-card);
+  padding: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.item-card:active {
+  transform: scale(0.98);
+}
+
+.item-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.explore-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-treasure-map);
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.domain-tag {
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: var(--border-radius-pill);
+  color: #fff;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.item-title {
+  font-size: 16px;
+  font-weight: 600;
+  flex: 1;
+  min-width: 0;
+}
+
+.sub-progress {
+  font-size: 12px;
+  color: var(--text-hint);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.item-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.item-hints {
+  font-size: 13px;
+  color: #E87B4A;
+  line-height: 1.5;
+  padding: 10px 12px;
+  background: #FFF8F0;
+  border-radius: 8px;
+  border-left: 3px solid #E87B4A;
+  margin-bottom: 8px;
+}
+
+/* ─── 状态标签 ─── */
+.status-badge {
+  display: inline-block;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: var(--border-radius-pill);
+  margin-top: 4px;
+}
+
+.status-badge.explored {
+  background: #EFF6FF;
+  color: var(--status-explored);
+}
+
+.status-badge.next {
+  background: #FFF4ED;
+  color: var(--status-next);
+}
+
+/* ─── 子项目 ─── */
+.sub-items {
+  margin-top: 12px;
+  padding-left: 12px;
+  border-left: 2px solid var(--border-color);
+}
+
+.sub-item {
+  padding: 8px 0;
+}
+
+.sub-item + .sub-item {
+  border-top: 1px solid var(--border-color);
+}
+
+.sub-item-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.sub-item-desc {
+  font-size: 13px;
+  color: var(--text-hint);
+  line-height: 1.4;
+}
+
+/* ─── 进度条 ─── */
+.progress-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.progress-track {
+  flex: 1;
+  height: 6px;
+  background: var(--bg-primary);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  font-size: 12px;
+  color: var(--text-hint);
+  white-space: nowrap;
+}
+
+/* ─── 状态指示器 ─── */
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.status-dot.explored { background: var(--status-explored); }
+.status-dot.next { background: var(--status-next); }
+.status-dot.unexplored { background: var(--status-unexplored); }
+
+/* ─── 按钮 ─── */
+.btn-primary {
+  background: var(--color-treasure-map);
+  color: #fff;
+  border: none;
+  border-radius: var(--border-radius-button);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.btn-primary:active {
+  opacity: 0.85;
+}
+
+.btn-outline {
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-button);
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-small {
+  padding: 4px 12px;
+  font-size: 12px;
+}
+
+/* ─── 虚线边框入口 ─── */
+.dashed-entry {
+  border: 2px dashed var(--border-color);
+  border-radius: var(--border-radius-card);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: var(--text-hint);
+  font-size: 14px;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.dashed-entry:active {
+  border-color: var(--color-treasure-map);
+  color: var(--color-treasure-map);
+}
+
+/* ─── 模态框 ─── */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modal-content {
+  background: var(--bg-card);
+  border-radius: var(--border-radius-card);
+  padding: 24px;
+  width: 100%;
+  max-width: 400px;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.modal-collect {
+  max-width: 440px;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: var(--text-hint);
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.modal-subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+/* ─── 感官指纹录入 ─── */
+.collect-item-info {
+  background: var(--bg-primary);
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 20px;
+}
+
+.collect-item-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.collect-item-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.collect-item-hints {
+  font-size: 12px;
+  color: #E87B4A;
+  line-height: 1.4;
+  font-style: italic;
+}
+
+.sensory-input-section {
+  margin-bottom: 8px;
+}
+
+.section-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.sensory-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.sensory-label {
+  font-size: 13px;
+  font-weight: 500;
+  width: 40px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.sensory-levels {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.sensory-level-btn {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-hint);
+  cursor: pointer;
+  transition: all 0.15s;
+  min-width: 36px;
+  text-align: center;
+}
+
+.sensory-level-btn.active {
+  color: #fff;
+}
+
+/* ─── 表单 ─── */
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-button);
+  font-size: 14px;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+  border-color: var(--color-treasure-map);
+}
+
+.form-textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* ─── 空状态 ─── */
+.empty-state {
+  text-align: center;
+  padding: 48px 20px;
+  color: var(--text-hint);
+}
+
+.empty-state-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.empty-state-text {
+  font-size: 14px;
+}
+
+/* ─── 感官指纹展示 ─── */
+.sensory-fingerprint {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.sensory-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.sensory-bar-track {
+  width: 60px;
+  height: 4px;
+  background: var(--bg-primary);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.sensory-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+}
+
+/* ─── 导入入口 ─── */
+.import-btn-wrapper {
+  margin-top: 16px;
+}
+
+/* ─── 藏宝阁操作栏 ─── */
+.vault-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.btn-action {
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: var(--border-radius-pill);
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+
+.btn-action-primary {
+  background: var(--color-collect);
+  color: #fff;
+  border-color: var(--color-collect);
+}
+
+.btn-action-export {
+  border-color: var(--domain-sculpture);
+  color: var(--domain-sculpture);
+}
+
+.btn-action-import {
+  background: var(--color-collect);
+  color: #fff;
+  border-color: var(--color-collect);
+}
+
+.btn-action-reset {
+  border-color: #EF4444;
+  color: #EF4444;
+}
+
+/* ─── 藏宝阁列表卡片 ─── */
+.vault-card {
+  border-radius: var(--border-radius-card);
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.vault-card:active {
+  transform: scale(0.98);
+}
+
+.vault-card-from-map {
+  background: #EFF6FF;
+  border: 1px solid #DBEAFE;
+}
+
+.vault-card-from-free {
+  background: #FFF8F0;
+  border: 1px solid #FEEACC;
+}
+
+.vault-card-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.vault-card-title {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', serif;
+  font-size: 15px;
+  font-weight: 700;
+  flex: 1;
+  min-width: 0;
+}
+
+.vault-card-badge {
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: var(--border-radius-pill);
+  color: #fff;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ─── 感官筛选标签行 ─── */
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  overflow-x: auto;
+}
+
+.filter-row-label {
+  font-size: 12px;
+  color: var(--text-hint);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ─── 感受不可能入口按钮 ─── */
+.feel-impossible-entry {
+  display: block;
+  margin: 12px auto;
+  font-size: 13px;
+  padding: 6px 20px;
+  border-radius: var(--border-radius-pill);
+  border: 1px solid var(--color-vault);
+  background: transparent;
+  color: var(--color-vault);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+/* ─── 藏品详情区 ─── */
+.detail-title {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.detail-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-card);
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.detail-section-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+/* ─── 感官指纹详情条 ─── */
+.sensory-detail-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.sensory-detail-label {
+  width: 50px;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.sensory-detail-track {
+  flex: 1;
+  height: 6px;
+  background: var(--bg-primary);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.sensory-detail-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.sensory-detail-level {
+  font-size: 12px;
+  color: var(--text-hint);
+  width: 36px;
+  flex-shrink: 0;
+}
+
+/* ─── 笔记编辑区 ─── */
+.notes-edit-area {
+  border: 2px dashed var(--border-color);
+  border-radius: var(--border-radius-button);
+  padding: 12px;
+  min-height: 60px;
+  cursor: text;
+  transition: border-color 0.15s;
+}
+
+.notes-edit-area:focus-within {
+  border-color: var(--color-treasure-map);
+}
+
+.notes-edit-placeholder {
+  color: var(--text-hint);
+  font-size: 13px;
+}
+
+.notes-edit-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: var(--text-primary);
+  background: transparent;
+  resize: vertical;
+  min-height: 48px;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+/* ─── 关联星点 ─── */
+.linked-stars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.linked-star-pill {
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: var(--border-radius-pill);
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.linked-star-pill:active {
+  opacity: 0.7;
+}
+
+.linked-star-remove {
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+.add-link-btn {
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: var(--border-radius-pill);
+  border: 1px dashed var(--border-color);
+  background: transparent;
+  color: var(--text-hint);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.add-link-btn:active {
+  border-color: var(--color-treasure-map);
+  color: var(--color-treasure-map);
+}
+
+/* ─── 添加关联模态列表 ─── */
+.link-search-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-button);
+  font-size: 14px;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.link-search-input:focus {
+  border-color: var(--color-treasure-map);
+}
+
+.link-candidate-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.link-candidate-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.link-candidate-item:active {
+  opacity: 0.7;
+}
+
+.link-candidate-item.linked {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.link-candidate-title {
+  font-size: 14px;
+  flex: 1;
+}
+
+/* ─── 底部操作按钮 ─── */
+.detail-bottom-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.detail-bottom-actions .btn-outline {
+  flex: 1;
+  text-align: center;
+}
+
+.btn-danger {
+  background: transparent;
+  color: #EF4444;
+  border: 1px solid #EF4444;
+  border-radius: var(--border-radius-button);
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+}
+
+/* ─── Toast 提示 ─── */
+.toast {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1F2937;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 24px;
+  border-radius: var(--border-radius-pill);
+  z-index: 2000;
+  animation: toast-in 0.2s ease, toast-out 0.2s ease 2s forwards;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateX(-50%) translateY(10px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@keyframes toast-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+/* ─── 藏品入库 domain 选择器 ─── */
+.domain-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.domain-pill {
+  font-size: 13px;
+  padding: 5px 14px;
+  border-radius: var(--border-radius-pill);
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.domain-pill:active {
+  transform: scale(0.96);
+}
+
+/* ─── 源信息 & 时间 ─── */
+.source-info {
+  font-size: 12px;
+  color: var(--text-hint);
+  margin-top: 4px;
+}
+
+.creation-time {
+  font-size: 12px;
+  color: var(--text-hint);
+  text-align: center;
+  margin-top: 16px;
+}
